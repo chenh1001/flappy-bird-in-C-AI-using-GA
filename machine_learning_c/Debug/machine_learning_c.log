@@ -1,0 +1,11 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (SDLproject.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Stack.c
+c:\users\admin\source\repos\machine_learning_c\machine_learning_c\stack.c(50): warning C4013: 'puts' undefined; assuming extern returning int
+c:\users\admin\source\repos\machine_learning_c\machine_learning_c\stack.c(38): warning C4133: 'initializing': incompatible types - from 'PipesStack *' to 'PipesStack *'
+c:\users\admin\source\repos\machine_learning_c\machine_learning_c\stack.c(71): warning C4013: 'rand' undefined; assuming extern returning int
+c:\users\admin\source\repos\machine_learning_c\machine_learning_c\stack.c(75): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\admin\source\repos\machine_learning_c\machine_learning_c\stack.c(77): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\admin\source\repos\machine_learning_c\machine_learning_c\stack.c(52): warning C4715: 'pop': not all control paths return a value
+c:\users\admin\source\repos\machine_learning_c\machine_learning_c\stack.c(30): warning C4715: 'peek': not all control paths return a value
+  machine_learning_c.vcxproj -> C:\Users\Admin\source\repos\machine_learning_c\Debug\machine_learning_c.exe
+  machine_learning_c.vcxproj -> C:\Users\Admin\source\repos\machine_learning_c\Debug\machine_learning_c.pdb (Partial PDB)
