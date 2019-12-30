@@ -1,0 +1,81 @@
+
+=== Start: [2019/12/30 21:35:45] === 
+Analysis started...
+Result file: C:\Users\Admin\source\repos\machine_learning_c\machine_learning_c\My Inspector Results - machine_learning_c\r005mi3\r005mi3.inspxe 
+Analysis started for c:\users\admin\source\repos\machine_learning_c\debug\machine_learning_c.exe (pid = 3088) 
+Loaded module: c:\users\admin\source\repos\machine_learning_c\debug\machine_learning_c.exe, address range [0x7a0000-0x7b1fff] 
+Loaded module: c:\program files\avg\antivirus\aswhookx.dll, address range [0x67c40000-0x67c50fff] 
+Loaded module: c:\windows\syswow64\kernel32.dll, address range [0x75c80000-0x75d5ffff] 
+Loaded module: c:\windows\syswow64\kernelbase.dll, address range [0x762d0000-0x764cbfff] 
+Loaded module: c:\windows\syswow64\ntdll.dll, address range [0x77370000-0x77509fff] 
+Loaded module: c:\users\admin\source\repos\machine_learning_c\machine_learning_c\sdl2.dll, address range [0x7a020000-0x7a143fff] 
+Loaded module: c:\windows\syswow64\advapi32.dll, address range [0x768a0000-0x76918fff] 
+Loaded module: c:\windows\syswow64\msvcrt.dll, address range [0x76590000-0x7664efff] 
+Loaded module: c:\windows\syswow64\sechost.dll, address range [0x75de0000-0x75e55fff] 
+Loaded module: c:\windows\syswow64\rpcrt4.dll, address range [0x77220000-0x772dafff] 
+Loaded module: c:\windows\syswow64\sspicli.dll, address range [0x74b40000-0x74b5ffff], minimal analysis 
+Loaded module: c:\windows\syswow64\cryptbase.dll, address range [0x74b30000-0x74b39fff] 
+Loaded module: c:\windows\syswow64\bcryptprimitives.dll, address range [0x767c0000-0x7681efff], minimal analysis 
+Loaded module: c:\windows\syswow64\gdi32.dll, address range [0x77330000-0x77350fff] 
+Loaded module: c:\windows\syswow64\win32u.dll, address range [0x77310000-0x77326fff] 
+Loaded module: c:\windows\syswow64\gdi32full.dll, address range [0x760e0000-0x76239fff], minimal analysis 
+Loaded module: c:\windows\syswow64\msvcp_win.dll, address range [0x74c80000-0x74cfbfff] 
+Loaded module: c:\windows\syswow64\ucrtbase.dll, address range [0x74b60000-0x74c7efff] 
+Loaded module: c:\windows\syswow64\user32.dll, address range [0x75670000-0x75806fff], minimal analysis 
+Loaded module: c:\windows\syswow64\imm32.dll, address range [0x76870000-0x76894fff], minimal analysis 
+Loaded module: c:\windows\syswow64\ole32.dll, address range [0x74f80000-0x75076fff] 
+Loaded module: c:\windows\syswow64\combase.dll, address range [0x74d00000-0x74f75fff], minimal analysis 
+Loaded module: c:\windows\syswow64\oleaut32.dll, address range [0x764e0000-0x76571fff], minimal analysis 
+Loaded module: c:\windows\syswow64\setupapi.dll, address range [0x75810000-0x75c58fff] 
+Loaded module: c:\windows\syswow64\cfgmgr32.dll, address range [0x75f90000-0x75fcafff] 
+Loaded module: c:\windows\syswow64\bcrypt.dll, address range [0x75c60000-0x75c78fff] 
+Loaded module: c:\windows\syswow64\shell32.dll, address range [0x750e0000-0x75659fff] 
+Loaded module: c:\windows\syswow64\shcore.dll, address range [0x76240000-0x762c3fff], minimal analysis 
+Loaded module: c:\windows\syswow64\windows.storage.dll, address range [0x769f0000-0x76fb4fff] 
+Loaded module: c:\windows\syswow64\profapi.dll, address range [0x75e60000-0x75e76fff] 
+Loaded module: c:\windows\syswow64\powrprof.dll, address range [0x770c0000-0x77102fff] 
+Loaded module: c:\windows\syswow64\umpdc.dll, address range [0x76580000-0x7658cfff] 
+Loaded module: c:\windows\syswow64\shlwapi.dll, address range [0x76fc0000-0x77003fff] 
+Loaded module: c:\windows\syswow64\kernel.appcore.dll, address range [0x77300000-0x7730efff] 
+Loaded module: c:\windows\syswow64\cryptsp.dll, address range [0x772e0000-0x772f2fff] 
+Loaded module: c:\windows\syswow64\vcruntime140d.dll, address range [0x7a150000-0x7a169fff] 
+Loaded module: c:\windows\syswow64\ucrtbased.dll, address range [0xb8a0000-0xba10fff] 
+Loaded module: c:\windows\syswow64\version.dll, address range [0x74380000-0x74387fff] 
+Loaded module: c:\windows\syswow64\winmm.dll, address range [0x71870000-0x71893fff] 
+Loaded module: c:\windows\syswow64\winmmbase.dll, address range [0x70c80000-0x70ca2fff] 
+Loaded module: c:\windows\syswow64\uxtheme.dll, address range [0x71c90000-0x71d09fff], minimal analysis 
+Loaded module: c:\windows\syswow64\opengl32.dll, address range [0x79f10000-0x7a00efff] 
+Loaded module: c:\windows\syswow64\glu32.dll, address range [0xe640000-0xe67efff] 
+Loaded module: c:\windows\syswow64\dxcore.dll, address range [0x6b0d0000-0x6b0e8fff] 
+Loaded module: c:\windows\syswow64\msctf.dll, address range [0x75fd0000-0x760d2fff], minimal analysis 
+Loaded module: c:\windows\system32\driverstore\filerepository\nv_dispi.inf_amd64_db678424d2641c3d\nvoglv32.dll, address range [0xe720000-0x1045efff] 
+Loaded module: c:\windows\syswow64\wtsapi32.dll, address range [0x73510000-0x7351efff] 
+Loaded module: c:\windows\syswow64\devobj.dll, address range [0x6d260000-0x6d282fff] 
+Loaded module: c:\windows\syswow64\wintrust.dll, address range [0x76820000-0x76865fff] 
+Loaded module: c:\windows\syswow64\msasn1.dll, address range [0x764d0000-0x764ddfff] 
+Loaded module: c:\windows\syswow64\crypt32.dll, address range [0x75e80000-0x75f7afff] 
+Loaded module: c:\windows\syswow64\ntmarta.dll, address range [0x70cb0000-0x70cd8fff] 
+Loaded module: c:\windows\syswow64\dwmapi.dll, address range [0x71820000-0x71844fff] 
+Loaded module: c:\windows\syswow64\nvspcap.dll, address range [0x12380000-0x125a9fff] 
+Loaded module: c:\windows\syswow64\winsta.dll, address range [0x729c0000-0x72a08fff] 
+Loaded module: c:\windows\syswow64\clbcatq.dll, address range [0x75d60000-0x75ddffff], minimal analysis 
+Loaded module: c:\windows\syswow64\d3d9.dll, address range [0x607d0000-0x6095dfff] 
+Loaded module: c:\windows\system32\driverstore\filerepository\nv_dispi.inf_amd64_db678424d2641c3d\nvldumd.dll, address range [0x5f030000-0x5f0f6fff] 
+Loaded module: c:\windows\syswow64\imagehlp.dll, address range [0x77110000-0x7712afff] 
+Loaded module: c:\windows\syswow64\rsaenh.dll, address range [0x73a50000-0x73a7efff] 
+Loaded module: c:\windows\system32\driverstore\filerepository\nv_dispi.inf_amd64_db678424d2641c3d\nvd3dum.dll, address range [0x19980000-0x1aab6fff] 
+Loaded module: c:\windows\syswow64\resourcepolicyclient.dll, address range [0x14a00000-0x14a0efff] 
+Unloaded module: C:\Windows\SysWOW64\ResourcePolicyClient.dll 
+Loaded module: c:\windows\syswow64\gpapi.dll, address range [0x6ce60000-0x6ce7dfff] 
+Loaded module: c:\windows\syswow64\cryptnet.dll, address range [0x6ce30000-0x6ce55fff] 
+Loaded module: c:\program files\nvidia corporation\ansel\tools\nvcamerawhitelisting32.dll, address range [0x7a170000-0x7a1eafff] 
+Unloaded module: C:\Program Files\NVIDIA Corporation\Ansel\Tools\NvCameraWhitelisting32.dll 
+Loaded module: c:\windows\syswow64\textinputframework.dll, address range [0x60d60000-0x60de3fff], minimal analysis 
+Loaded module: c:\windows\syswow64\coreuicomponents.dll, address range [0x69da0000-0x69ffdfff], minimal analysis 
+Loaded module: c:\windows\syswow64\coremessaging.dll, address range [0x6a920000-0x6a9a8fff], minimal analysis 
+Loaded module: c:\windows\syswow64\wintypes.dll, address range [0x6a000000-0x6a0d9fff] 
+Loaded module: c:\windows\syswow64\iertutil.dll, address range [0x70500000-0x70728fff] 
+Application exit code: 1 
+Result file: C:\Users\Admin\source\repos\machine_learning_c\machine_learning_c\My Inspector Results - machine_learning_c\r005mi3\r005mi3.inspxe 
+Analysis canceled by user
+=== End: [2019/12/30 21:37:02] === 

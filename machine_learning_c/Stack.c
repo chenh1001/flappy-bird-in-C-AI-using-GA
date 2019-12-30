@@ -44,6 +44,7 @@ Pipe pop(PipesStack *stack) {
 		}
 		pipes->top = newTop;
 		*stack = *pipes;
+		free(pipes);
 		return data;
 	}
 	else {
@@ -66,7 +67,7 @@ void push(Pipe data, PipesStack *stack) {
 void createPipe(PipesStack *pipes)
 {
 	Pipe pipe;
-	pipe.space = 150;
+	pipe.space = 250;
 	pipe.x = width;
 	int num = (rand() % (height- (int)pipe.space + 1));
 	pipe.yUpRect = num;
@@ -113,3 +114,4 @@ void checkForHits(Bird* bird, PipesStack *pipes)
 			bird->isAlive = false;
 	}
 }
+

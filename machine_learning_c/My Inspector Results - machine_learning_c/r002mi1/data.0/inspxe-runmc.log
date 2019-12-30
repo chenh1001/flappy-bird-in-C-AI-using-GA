@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2019/12/30 21:30:36</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>marker-file</type>
+  <arg>C:\Users\Admin\source\repos\machine_learning_c\machine_learning_c\My Inspector Results - machine_learning_c\r002mi1\r002mi1.inspxe</arg>
+</msg>
+<msg id="4" tool="mc">
+  <type>EXEC_OF_INTEREST</type>
+  <arg>c:\users\admin\source\repos\machine_learning_c\debug\machine_learning_c.exe</arg>
+  <arg>12384</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:37 2019</timestamp>
+</msg>
+<msg id="5" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\users\admin\source\repos\machine_learning_c\debug\machine_learning_c.exe</arg>
+  <arg>0x190000</arg>
+  <arg>0x1a1fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:37 2019</timestamp>
+</msg>
+<msg id="6" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\program files\avg\antivirus\aswhookx.dll</arg>
+  <arg>0x67c40000</arg>
+  <arg>0x67c50fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:37 2019</timestamp>
+</msg>
+<msg id="7" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\kernel32.dll</arg>
+  <arg>0x75c80000</arg>
+  <arg>0x75d5ffff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:37 2019</timestamp>
+</msg>
+<msg id="8" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\kernelbase.dll</arg>
+  <arg>0x762d0000</arg>
+  <arg>0x764cbfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:37 2019</timestamp>
+</msg>
+<msg id="9" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\ntdll.dll</arg>
+  <arg>0x77370000</arg>
+  <arg>0x77509fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:37 2019</timestamp>
+</msg>
+<msg id="10" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\program files (x86)\intelswtools\inspector 2019\bin32\dnclrprofinfo.dll</arg>
+  <arg>0x7bec0000</arg>
+  <arg>0x7bee4fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:37 2019</timestamp>
+</msg>
+<msg id="11" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\users\admin\source\repos\machine_learning_c\machine_learning_c\sdl2.dll</arg>
+  <arg>0x7a020000</arg>
+  <arg>0x7a143fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:37 2019</timestamp>
+</msg>
+<msg id="12" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\advapi32.dll</arg>
+  <arg>0x768a0000</arg>
+  <arg>0x76918fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:37 2019</timestamp>
+</msg>
+<msg id="13" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\msvcrt.dll</arg>
+  <arg>0x76590000</arg>
+  <arg>0x7664efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:37 2019</timestamp>
+</msg>
+<msg id="14" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\sechost.dll</arg>
+  <arg>0x75de0000</arg>
+  <arg>0x75e55fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:37 2019</timestamp>
+</msg>
+<msg id="15" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\rpcrt4.dll</arg>
+  <arg>0x77220000</arg>
+  <arg>0x772dafff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:37 2019</timestamp>
+</msg>
+<msg id="16" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\sspicli.dll</arg>
+  <arg>0x74b40000</arg>
+  <arg>0x74b5ffff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:37 2019</timestamp>
+</msg>
+<msg id="17" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\cryptbase.dll</arg>
+  <arg>0x74b30000</arg>
+  <arg>0x74b39fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:37 2019</timestamp>
+</msg>
+<msg id="18" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\bcryptprimitives.dll</arg>
+  <arg>0x767c0000</arg>
+  <arg>0x7681efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:37 2019</timestamp>
+</msg>
+<msg id="19" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\gdi32.dll</arg>
+  <arg>0x77330000</arg>
+  <arg>0x77350fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:37 2019</timestamp>
+</msg>
+<msg id="20" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\win32u.dll</arg>
+  <arg>0x77310000</arg>
+  <arg>0x77326fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:37 2019</timestamp>
+</msg>
+<msg id="21" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\gdi32full.dll</arg>
+  <arg>0x760e0000</arg>
+  <arg>0x76239fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:37 2019</timestamp>
+</msg>
+<msg id="22" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\msvcp_win.dll</arg>
+  <arg>0x74c80000</arg>
+  <arg>0x74cfbfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:38 2019</timestamp>
+</msg>
+<msg id="23" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\ucrtbase.dll</arg>
+  <arg>0x74b60000</arg>
+  <arg>0x74c7efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:38 2019</timestamp>
+</msg>
+<msg id="24" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\user32.dll</arg>
+  <arg>0x75670000</arg>
+  <arg>0x75806fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:38 2019</timestamp>
+</msg>
+<msg id="25" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\imm32.dll</arg>
+  <arg>0x76870000</arg>
+  <arg>0x76894fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:38 2019</timestamp>
+</msg>
+<msg id="26" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\ole32.dll</arg>
+  <arg>0x74f80000</arg>
+  <arg>0x75076fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:38 2019</timestamp>
+</msg>
+<msg id="27" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\combase.dll</arg>
+  <arg>0x74d00000</arg>
+  <arg>0x74f75fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:38 2019</timestamp>
+</msg>
+<msg id="28" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\oleaut32.dll</arg>
+  <arg>0x764e0000</arg>
+  <arg>0x76571fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:38 2019</timestamp>
+</msg>
+<msg id="29" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\setupapi.dll</arg>
+  <arg>0x75810000</arg>
+  <arg>0x75c58fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:38 2019</timestamp>
+</msg>
+<msg id="30" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\cfgmgr32.dll</arg>
+  <arg>0x75f90000</arg>
+  <arg>0x75fcafff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:38 2019</timestamp>
+</msg>
+<msg id="31" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\bcrypt.dll</arg>
+  <arg>0x75c60000</arg>
+  <arg>0x75c78fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:38 2019</timestamp>
+</msg>
+<msg id="32" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\shell32.dll</arg>
+  <arg>0x750e0000</arg>
+  <arg>0x75659fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:38 2019</timestamp>
+</msg>
+<msg id="33" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\shcore.dll</arg>
+  <arg>0x76240000</arg>
+  <arg>0x762c3fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:38 2019</timestamp>
+</msg>
+<msg id="34" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\windows.storage.dll</arg>
+  <arg>0x769f0000</arg>
+  <arg>0x76fb4fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:38 2019</timestamp>
+</msg>
+<msg id="35" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\profapi.dll</arg>
+  <arg>0x75e60000</arg>
+  <arg>0x75e76fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:39 2019</timestamp>
+</msg>
+<msg id="36" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\powrprof.dll</arg>
+  <arg>0x770c0000</arg>
+  <arg>0x77102fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:39 2019</timestamp>
+</msg>
+<msg id="37" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\umpdc.dll</arg>
+  <arg>0x76580000</arg>
+  <arg>0x7658cfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:39 2019</timestamp>
+</msg>
+<msg id="38" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\shlwapi.dll</arg>
+  <arg>0x76fc0000</arg>
+  <arg>0x77003fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:39 2019</timestamp>
+</msg>
+<msg id="39" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\kernel.appcore.dll</arg>
+  <arg>0x77300000</arg>
+  <arg>0x7730efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:39 2019</timestamp>
+</msg>
+<msg id="40" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\cryptsp.dll</arg>
+  <arg>0x772e0000</arg>
+  <arg>0x772f2fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:39 2019</timestamp>
+</msg>
+<msg id="41" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\vcruntime140d.dll</arg>
+  <arg>0x7a150000</arg>
+  <arg>0x7a169fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:39 2019</timestamp>
+</msg>
+<msg id="42" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\ucrtbased.dll</arg>
+  <arg>0x17c0000</arg>
+  <arg>0x1930fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:39 2019</timestamp>
+</msg>
+<msg id="43" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\version.dll</arg>
+  <arg>0x74380000</arg>
+  <arg>0x74387fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:39 2019</timestamp>
+</msg>
+<msg id="44" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\winmm.dll</arg>
+  <arg>0x71870000</arg>
+  <arg>0x71893fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:39 2019</timestamp>
+</msg>
+<msg id="45" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\winmmbase.dll</arg>
+  <arg>0x70c80000</arg>
+  <arg>0x70ca2fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:39 2019</timestamp>
+</msg>
+<msg id="46" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\uxtheme.dll</arg>
+  <arg>0x71c90000</arg>
+  <arg>0x71d09fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:30:39 2019</timestamp>
+</msg>
+<msg id="47" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>-1073740771</arg>
+</msg>
+<msg id="48" tool="runtool">
+  <type>marker-file</type>
+  <arg>C:\Users\Admin\source\repos\machine_learning_c\machine_learning_c\My Inspector Results - machine_learning_c\r002mi1\r002mi1.inspxe</arg>
+</msg>
+<msg id="49" tool="runtool">
+  <type>collector-done</type>
+</msg>
+<msg id="50" tool="runtool">
+  <type>log-end</type>
+  <arg>2019/12/30 21:30:47</arg>
+</msg>
+
+</log>
+

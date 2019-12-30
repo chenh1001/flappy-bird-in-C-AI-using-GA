@@ -1,0 +1,51 @@
+
+=== Start: [2019/12/30 21:31:10] === 
+Analysis started...
+Result file: C:\Users\Admin\source\repos\machine_learning_c\machine_learning_c\My Inspector Results - machine_learning_c\r003mi1\r003mi1.inspxe 
+Analysis started for c:\users\admin\source\repos\machine_learning_c\debug\machine_learning_c.exe (pid = 12672) 
+Loaded module: c:\users\admin\source\repos\machine_learning_c\debug\machine_learning_c.exe, address range [0x190000-0x1a1fff] 
+Loaded module: c:\program files\avg\antivirus\aswhookx.dll, address range [0x67c40000-0x67c50fff] 
+Loaded module: c:\windows\syswow64\kernel32.dll, address range [0x75c80000-0x75d5ffff], minimal analysis 
+Loaded module: c:\windows\syswow64\kernelbase.dll, address range [0x762d0000-0x764cbfff], minimal analysis 
+Loaded module: c:\windows\syswow64\ntdll.dll, address range [0x77370000-0x77509fff], minimal analysis 
+Loaded module: c:\program files (x86)\intelswtools\inspector 2019\bin32\dnclrprofinfo.dll, address range [0x7bec0000-0x7bee4fff] 
+Loaded module: c:\users\admin\source\repos\machine_learning_c\machine_learning_c\sdl2.dll, address range [0x7a020000-0x7a143fff] 
+Loaded module: c:\windows\syswow64\advapi32.dll, address range [0x768a0000-0x76918fff], minimal analysis 
+Loaded module: c:\windows\syswow64\msvcrt.dll, address range [0x76590000-0x7664efff], minimal analysis 
+Loaded module: c:\windows\syswow64\sechost.dll, address range [0x75de0000-0x75e55fff] 
+Loaded module: c:\windows\syswow64\rpcrt4.dll, address range [0x77220000-0x772dafff], minimal analysis 
+Loaded module: c:\windows\syswow64\sspicli.dll, address range [0x74b40000-0x74b5ffff], minimal analysis 
+Loaded module: c:\windows\syswow64\cryptbase.dll, address range [0x74b30000-0x74b39fff], minimal analysis 
+Loaded module: c:\windows\syswow64\bcryptprimitives.dll, address range [0x767c0000-0x7681efff], minimal analysis 
+Loaded module: c:\windows\syswow64\gdi32.dll, address range [0x77330000-0x77350fff], minimal analysis 
+Loaded module: c:\windows\syswow64\win32u.dll, address range [0x77310000-0x77326fff] 
+Loaded module: c:\windows\syswow64\gdi32full.dll, address range [0x760e0000-0x76239fff], minimal analysis 
+Loaded module: c:\windows\syswow64\msvcp_win.dll, address range [0x74c80000-0x74cfbfff] 
+Loaded module: c:\windows\syswow64\ucrtbase.dll, address range [0x74b60000-0x74c7efff] 
+Loaded module: c:\windows\syswow64\user32.dll, address range [0x75670000-0x75806fff], minimal analysis 
+Loaded module: c:\windows\syswow64\imm32.dll, address range [0x76870000-0x76894fff], minimal analysis 
+Loaded module: c:\windows\syswow64\ole32.dll, address range [0x74f80000-0x75076fff], minimal analysis 
+Loaded module: c:\windows\syswow64\combase.dll, address range [0x74d00000-0x74f75fff], minimal analysis 
+Loaded module: c:\windows\syswow64\oleaut32.dll, address range [0x764e0000-0x76571fff], minimal analysis 
+Loaded module: c:\windows\syswow64\setupapi.dll, address range [0x75810000-0x75c58fff] 
+Loaded module: c:\windows\syswow64\cfgmgr32.dll, address range [0x75f90000-0x75fcafff] 
+Loaded module: c:\windows\syswow64\bcrypt.dll, address range [0x75c60000-0x75c78fff] 
+Loaded module: c:\windows\syswow64\shell32.dll, address range [0x750e0000-0x75659fff], minimal analysis 
+Loaded module: c:\windows\syswow64\shcore.dll, address range [0x76240000-0x762c3fff], minimal analysis 
+Loaded module: c:\windows\syswow64\windows.storage.dll, address range [0x769f0000-0x76fb4fff] 
+Loaded module: c:\windows\syswow64\profapi.dll, address range [0x75e60000-0x75e76fff] 
+Loaded module: c:\windows\syswow64\powrprof.dll, address range [0x770c0000-0x77102fff] 
+Loaded module: c:\windows\syswow64\umpdc.dll, address range [0x76580000-0x7658cfff] 
+Loaded module: c:\windows\syswow64\shlwapi.dll, address range [0x76fc0000-0x77003fff] 
+Loaded module: c:\windows\syswow64\kernel.appcore.dll, address range [0x77300000-0x7730efff] 
+Loaded module: c:\windows\syswow64\cryptsp.dll, address range [0x772e0000-0x772f2fff] 
+Loaded module: c:\windows\syswow64\vcruntime140d.dll, address range [0x7a150000-0x7a169fff] 
+Loaded module: c:\windows\syswow64\ucrtbased.dll, address range [0x13e0000-0x1550fff] 
+Loaded module: c:\windows\syswow64\version.dll, address range [0x74380000-0x74387fff] 
+Loaded module: c:\windows\syswow64\winmm.dll, address range [0x71870000-0x71893fff] 
+Loaded module: c:\windows\syswow64\winmmbase.dll, address range [0x70c80000-0x70ca2fff] 
+Loaded module: c:\windows\syswow64\uxtheme.dll, address range [0x71c90000-0x71d09fff], minimal analysis 
+Application exit code: -1073740771 
+Result file: C:\Users\Admin\source\repos\machine_learning_c\machine_learning_c\My Inspector Results - machine_learning_c\r003mi1\r003mi1.inspxe 
+Analysis completed
+=== End: [2019/12/30 21:31:21] === 

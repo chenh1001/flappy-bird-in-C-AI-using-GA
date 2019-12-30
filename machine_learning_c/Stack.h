@@ -13,7 +13,6 @@ int isfull(PipesStack *stack);
 Pipe peek(PipesStack *stack);
 Pipe pop(PipesStack *stack);
 void push(Pipe data, PipesStack *stack);
-
 void updatePipes(PipesStack *pipes);
 void createPipe(PipesStack *pipes);
 

@@ -78,11 +78,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>C:\SDL\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>C:\SDL\SDL2\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>SDL2.lib;SDL2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -120,12 +122,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="bird.h" />
+    <ClInclude Include="GeneticAlgorithm.h" />
     <ClInclude Include="mainFlappyBird.h" />
+    <ClInclude Include="Matrix.h" />
+    <ClInclude Include="NeuralNetwork.h" />
     <ClInclude Include="pipe.h" />
     <ClInclude Include="Stack.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="bird.c" />
+    <ClCompile Include="GeneticAlgorithm.c" />
+    <ClCompile Include="Matrix.c" />
+    <ClCompile Include="NeuralNetwork.c" />
     <ClCompile Include="pipe.c" />
     <ClCompile Include="mainFlappyBird.c" />
     <ClCompile Include="Stack.c" />

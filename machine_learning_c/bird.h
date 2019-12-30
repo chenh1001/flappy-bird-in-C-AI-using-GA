@@ -3,7 +3,7 @@
 
 #include <stdbool.h>
 #include "SDL.h"
-
+#include "NeuralNetwork.h"
 
 typedef struct Birds {
 	double fittnes;
@@ -13,6 +13,7 @@ typedef struct Birds {
 	SDL_Surface* circle;
 	double velocity;
 	bool isAlive;
+	NeuralNetwork brain;
 } Bird;
 
 /*struct Birds newBird() {
@@ -24,7 +25,7 @@ typedef struct Birds {
 	double velocity = 0;
 	bool isAlive = true;
 }*/
-
+Bird* newBird(Bird* bird);
 void birdJump(Bird *bird);
 void birdUpdate(Bird *bird);
 void resetBird(Bird *bird);

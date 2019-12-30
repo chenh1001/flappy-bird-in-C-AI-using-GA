@@ -1,0 +1,26 @@
+23200	push ebp
+23201	mov ebp, esp
+23203	push 0xffffffff
+23205	push 0x10007ff0
+23210	mov eax, dword ptr fs:[0x0]
+23216	push eax
+23217	mov eax, dword ptr [0x1000b000]
+23222	xor eax, ebp
+23224	push eax
+23225	lea eax, ptr [ebp-0xc]
+23228	mov dword ptr fs:[0x0], eax
+23234	mov eax, dword ptr [ebp+0x8]
+23237	test eax, eax
+23239	jz 0x5ade
+23241	push eax
+23242	mov eax, dword ptr fs:[0x18]
+23248	push 0x0
+23250	mov eax, dword ptr [eax+0x30]
+23253	push dword ptr [eax+0x18]
+23256	call dword ptr [0x10009048]
+23262	mov ecx, dword ptr [ebp-0xc]
+23265	mov dword ptr fs:[0x0], ecx
+23272	pop ecx
+23273	mov esp, ebp
+23275	pop ebp
+23276	ret 

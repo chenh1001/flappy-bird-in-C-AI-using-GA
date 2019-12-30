@@ -1,0 +1,1147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2019/12/30 21:35:45</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>marker-file</type>
+  <arg>C:\Users\Admin\source\repos\machine_learning_c\machine_learning_c\My Inspector Results - machine_learning_c\r005mi3\r005mi3.inspxe</arg>
+</msg>
+<msg id="4" tool="mc">
+  <type>EXEC_OF_INTEREST</type>
+  <arg>c:\users\admin\source\repos\machine_learning_c\debug\machine_learning_c.exe</arg>
+  <arg>3088</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:45 2019</timestamp>
+</msg>
+<msg id="5" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\users\admin\source\repos\machine_learning_c\debug\machine_learning_c.exe</arg>
+  <arg>0x7a0000</arg>
+  <arg>0x7b1fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:45 2019</timestamp>
+</msg>
+<msg id="6" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\program files\avg\antivirus\aswhookx.dll</arg>
+  <arg>0x67c40000</arg>
+  <arg>0x67c50fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:45 2019</timestamp>
+</msg>
+<msg id="7" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\kernel32.dll</arg>
+  <arg>0x75c80000</arg>
+  <arg>0x75d5ffff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:45 2019</timestamp>
+</msg>
+<msg id="8" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\kernelbase.dll</arg>
+  <arg>0x762d0000</arg>
+  <arg>0x764cbfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:45 2019</timestamp>
+</msg>
+<msg id="9" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\ntdll.dll</arg>
+  <arg>0x77370000</arg>
+  <arg>0x77509fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:45 2019</timestamp>
+</msg>
+<msg id="10" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\users\admin\source\repos\machine_learning_c\machine_learning_c\sdl2.dll</arg>
+  <arg>0x7a020000</arg>
+  <arg>0x7a143fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:46 2019</timestamp>
+</msg>
+<msg id="11" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\advapi32.dll</arg>
+  <arg>0x768a0000</arg>
+  <arg>0x76918fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:46 2019</timestamp>
+</msg>
+<msg id="12" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\msvcrt.dll</arg>
+  <arg>0x76590000</arg>
+  <arg>0x7664efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:46 2019</timestamp>
+</msg>
+<msg id="13" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\sechost.dll</arg>
+  <arg>0x75de0000</arg>
+  <arg>0x75e55fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:46 2019</timestamp>
+</msg>
+<msg id="14" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\rpcrt4.dll</arg>
+  <arg>0x77220000</arg>
+  <arg>0x772dafff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:46 2019</timestamp>
+</msg>
+<msg id="15" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\sspicli.dll</arg>
+  <arg>0x74b40000</arg>
+  <arg>0x74b5ffff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:46 2019</timestamp>
+</msg>
+<msg id="16" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\cryptbase.dll</arg>
+  <arg>0x74b30000</arg>
+  <arg>0x74b39fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:46 2019</timestamp>
+</msg>
+<msg id="17" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\bcryptprimitives.dll</arg>
+  <arg>0x767c0000</arg>
+  <arg>0x7681efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:46 2019</timestamp>
+</msg>
+<msg id="18" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\gdi32.dll</arg>
+  <arg>0x77330000</arg>
+  <arg>0x77350fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:46 2019</timestamp>
+</msg>
+<msg id="19" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\win32u.dll</arg>
+  <arg>0x77310000</arg>
+  <arg>0x77326fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:46 2019</timestamp>
+</msg>
+<msg id="20" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\gdi32full.dll</arg>
+  <arg>0x760e0000</arg>
+  <arg>0x76239fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:46 2019</timestamp>
+</msg>
+<msg id="21" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\msvcp_win.dll</arg>
+  <arg>0x74c80000</arg>
+  <arg>0x74cfbfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:46 2019</timestamp>
+</msg>
+<msg id="22" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\ucrtbase.dll</arg>
+  <arg>0x74b60000</arg>
+  <arg>0x74c7efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:46 2019</timestamp>
+</msg>
+<msg id="23" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\user32.dll</arg>
+  <arg>0x75670000</arg>
+  <arg>0x75806fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:46 2019</timestamp>
+</msg>
+<msg id="24" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\imm32.dll</arg>
+  <arg>0x76870000</arg>
+  <arg>0x76894fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:46 2019</timestamp>
+</msg>
+<msg id="25" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\ole32.dll</arg>
+  <arg>0x74f80000</arg>
+  <arg>0x75076fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:47 2019</timestamp>
+</msg>
+<msg id="26" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\combase.dll</arg>
+  <arg>0x74d00000</arg>
+  <arg>0x74f75fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:47 2019</timestamp>
+</msg>
+<msg id="27" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\oleaut32.dll</arg>
+  <arg>0x764e0000</arg>
+  <arg>0x76571fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:47 2019</timestamp>
+</msg>
+<msg id="28" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\setupapi.dll</arg>
+  <arg>0x75810000</arg>
+  <arg>0x75c58fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:47 2019</timestamp>
+</msg>
+<msg id="29" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\cfgmgr32.dll</arg>
+  <arg>0x75f90000</arg>
+  <arg>0x75fcafff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:47 2019</timestamp>
+</msg>
+<msg id="30" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\bcrypt.dll</arg>
+  <arg>0x75c60000</arg>
+  <arg>0x75c78fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:47 2019</timestamp>
+</msg>
+<msg id="31" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\shell32.dll</arg>
+  <arg>0x750e0000</arg>
+  <arg>0x75659fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:47 2019</timestamp>
+</msg>
+<msg id="32" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\shcore.dll</arg>
+  <arg>0x76240000</arg>
+  <arg>0x762c3fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:47 2019</timestamp>
+</msg>
+<msg id="33" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\windows.storage.dll</arg>
+  <arg>0x769f0000</arg>
+  <arg>0x76fb4fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:47 2019</timestamp>
+</msg>
+<msg id="34" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\profapi.dll</arg>
+  <arg>0x75e60000</arg>
+  <arg>0x75e76fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:47 2019</timestamp>
+</msg>
+<msg id="35" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\powrprof.dll</arg>
+  <arg>0x770c0000</arg>
+  <arg>0x77102fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:47 2019</timestamp>
+</msg>
+<msg id="36" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\umpdc.dll</arg>
+  <arg>0x76580000</arg>
+  <arg>0x7658cfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:47 2019</timestamp>
+</msg>
+<msg id="37" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\shlwapi.dll</arg>
+  <arg>0x76fc0000</arg>
+  <arg>0x77003fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:47 2019</timestamp>
+</msg>
+<msg id="38" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\kernel.appcore.dll</arg>
+  <arg>0x77300000</arg>
+  <arg>0x7730efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:47 2019</timestamp>
+</msg>
+<msg id="39" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\cryptsp.dll</arg>
+  <arg>0x772e0000</arg>
+  <arg>0x772f2fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:47 2019</timestamp>
+</msg>
+<msg id="40" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\vcruntime140d.dll</arg>
+  <arg>0x7a150000</arg>
+  <arg>0x7a169fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:47 2019</timestamp>
+</msg>
+<msg id="41" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\ucrtbased.dll</arg>
+  <arg>0xb8a0000</arg>
+  <arg>0xba10fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:47 2019</timestamp>
+</msg>
+<msg id="42" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\version.dll</arg>
+  <arg>0x74380000</arg>
+  <arg>0x74387fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:47 2019</timestamp>
+</msg>
+<msg id="43" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\winmm.dll</arg>
+  <arg>0x71870000</arg>
+  <arg>0x71893fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:47 2019</timestamp>
+</msg>
+<msg id="44" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\winmmbase.dll</arg>
+  <arg>0x70c80000</arg>
+  <arg>0x70ca2fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:47 2019</timestamp>
+</msg>
+<msg id="45" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\uxtheme.dll</arg>
+  <arg>0x71c90000</arg>
+  <arg>0x71d09fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:51 2019</timestamp>
+</msg>
+<msg id="46" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124</arg>
+  <arg>0</arg>
+  <arg>165535</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:52 2019</timestamp>
+</msg>
+<msg id="47" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\opengl32.dll</arg>
+  <arg>0x79f10000</arg>
+  <arg>0x7a00efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:52 2019</timestamp>
+</msg>
+<msg id="48" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\glu32.dll</arg>
+  <arg>0xe640000</arg>
+  <arg>0xe67efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:52 2019</timestamp>
+</msg>
+<msg id="49" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\dxcore.dll</arg>
+  <arg>0x6b0d0000</arg>
+  <arg>0x6b0e8fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:52 2019</timestamp>
+</msg>
+<msg id="50" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\msctf.dll</arg>
+  <arg>0x75fd0000</arg>
+  <arg>0x760d2fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:52 2019</timestamp>
+</msg>
+<msg id="51" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\driverstore\filerepository\nv_dispi.inf_amd64_db678424d2641c3d\nvoglv32.dll</arg>
+  <arg>0xe720000</arg>
+  <arg>0x1045efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:53 2019</timestamp>
+</msg>
+<msg id="52" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\wtsapi32.dll</arg>
+  <arg>0x73510000</arg>
+  <arg>0x7351efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:53 2019</timestamp>
+</msg>
+<msg id="53" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124</arg>
+  <arg>0</arg>
+  <arg>29681</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:53 2019</timestamp>
+</msg>
+<msg id="54" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124</arg>
+  <arg>0</arg>
+  <arg>8552</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:54 2019</timestamp>
+</msg>
+<msg id="55" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,21904</arg>
+  <arg>0,1</arg>
+  <arg>30527,102</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:55 2019</timestamp>
+</msg>
+<msg id="56" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,21904</arg>
+  <arg>0,1</arg>
+  <arg>75807,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:56 2019</timestamp>
+</msg>
+<msg id="57" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\devobj.dll</arg>
+  <arg>0x6d260000</arg>
+  <arg>0x6d282fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:56 2019</timestamp>
+</msg>
+<msg id="58" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\wintrust.dll</arg>
+  <arg>0x76820000</arg>
+  <arg>0x76865fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:57 2019</timestamp>
+</msg>
+<msg id="59" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\msasn1.dll</arg>
+  <arg>0x764d0000</arg>
+  <arg>0x764ddfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:57 2019</timestamp>
+</msg>
+<msg id="60" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\crypt32.dll</arg>
+  <arg>0x75e80000</arg>
+  <arg>0x75f7afff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:57 2019</timestamp>
+</msg>
+<msg id="61" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,21904</arg>
+  <arg>0,1</arg>
+  <arg>28594,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:57 2019</timestamp>
+</msg>
+<msg id="62" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\ntmarta.dll</arg>
+  <arg>0x70cb0000</arg>
+  <arg>0x70cd8fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:57 2019</timestamp>
+</msg>
+<msg id="63" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,21904,14948,15076</arg>
+  <arg>0,1,0,1</arg>
+  <arg>7518,10970,5367,4929</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:58 2019</timestamp>
+</msg>
+<msg id="64" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\dwmapi.dll</arg>
+  <arg>0x71820000</arg>
+  <arg>0x71844fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:58 2019</timestamp>
+</msg>
+<msg id="65" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124</arg>
+  <arg>0</arg>
+  <arg>23725</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:35:59 2019</timestamp>
+</msg>
+<msg id="66" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124</arg>
+  <arg>0</arg>
+  <arg>1965155</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:00 2019</timestamp>
+</msg>
+<msg id="67" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124</arg>
+  <arg>0</arg>
+  <arg>1304112</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:01 2019</timestamp>
+</msg>
+<msg id="68" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\nvspcap.dll</arg>
+  <arg>0x12380000</arg>
+  <arg>0x125a9fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:02 2019</timestamp>
+</msg>
+<msg id="69" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124</arg>
+  <arg>0</arg>
+  <arg>9592</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:02 2019</timestamp>
+</msg>
+<msg id="70" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936</arg>
+  <arg>0,1</arg>
+  <arg>467878,1602</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:03 2019</timestamp>
+</msg>
+<msg id="71" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424</arg>
+  <arg>0,1,1</arg>
+  <arg>2000254,0,2251</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:04 2019</timestamp>
+</msg>
+<msg id="72" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424</arg>
+  <arg>0,1,1</arg>
+  <arg>926515,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:05 2019</timestamp>
+</msg>
+<msg id="73" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200</arg>
+  <arg>0,1,1,1</arg>
+  <arg>12804,0,0,1489</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:06 2019</timestamp>
+</msg>
+<msg id="74" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\winsta.dll</arg>
+  <arg>0x729c0000</arg>
+  <arg>0x72a08fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:07 2019</timestamp>
+</msg>
+<msg id="75" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280</arg>
+  <arg>1,1,1,1,0,1</arg>
+  <arg>6247,0,192,0,8642,1575</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:07 2019</timestamp>
+</msg>
+<msg id="76" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280</arg>
+  <arg>0,1,1,1,1,1</arg>
+  <arg>384859,0,0,0,2393,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:08 2019</timestamp>
+</msg>
+<msg id="77" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280</arg>
+  <arg>0,1,1,1,1,1</arg>
+  <arg>716710,0,0,0,38,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:09 2019</timestamp>
+</msg>
+<msg id="78" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280</arg>
+  <arg>0,1,1,1,1,1</arg>
+  <arg>6121,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:10 2019</timestamp>
+</msg>
+<msg id="79" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280</arg>
+  <arg>0,1,1,1,1,1</arg>
+  <arg>142792,0,0,0,11,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:11 2019</timestamp>
+</msg>
+<msg id="80" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\clbcatq.dll</arg>
+  <arg>0x75d60000</arg>
+  <arg>0x75ddffff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:12 2019</timestamp>
+</msg>
+<msg id="81" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280</arg>
+  <arg>0,1,1,1,1,1</arg>
+  <arg>477207,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:12 2019</timestamp>
+</msg>
+<msg id="82" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280</arg>
+  <arg>0,1,1,1,1,1</arg>
+  <arg>17817,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:13 2019</timestamp>
+</msg>
+<msg id="83" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280</arg>
+  <arg>0,1,1,1,1,1</arg>
+  <arg>7918,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:14 2019</timestamp>
+</msg>
+<msg id="84" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\d3d9.dll</arg>
+  <arg>0x607d0000</arg>
+  <arg>0x6095dfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:14 2019</timestamp>
+</msg>
+<msg id="85" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\driverstore\filerepository\nv_dispi.inf_amd64_db678424d2641c3d\nvldumd.dll</arg>
+  <arg>0x5f030000</arg>
+  <arg>0x5f0f6fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:14 2019</timestamp>
+</msg>
+<msg id="86" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280</arg>
+  <arg>0,1,1,1,1,1</arg>
+  <arg>32852,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:15 2019</timestamp>
+</msg>
+<msg id="87" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\imagehlp.dll</arg>
+  <arg>0x77110000</arg>
+  <arg>0x7712afff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:15 2019</timestamp>
+</msg>
+<msg id="88" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\rsaenh.dll</arg>
+  <arg>0x73a50000</arg>
+  <arg>0x73a7efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:16 2019</timestamp>
+</msg>
+<msg id="89" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320</arg>
+  <arg>0,1,1,1,1,1,1</arg>
+  <arg>25334,0,0,0,0,0,1527</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:16 2019</timestamp>
+</msg>
+<msg id="90" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320</arg>
+  <arg>0,1,1,1,1,1,1</arg>
+  <arg>48890,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:17 2019</timestamp>
+</msg>
+<msg id="91" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\driverstore\filerepository\nv_dispi.inf_amd64_db678424d2641c3d\nvd3dum.dll</arg>
+  <arg>0x19980000</arg>
+  <arg>0x1aab6fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:17 2019</timestamp>
+</msg>
+<msg id="92" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320,5696</arg>
+  <arg>0,1,1,1,1,1,1,0</arg>
+  <arg>35908,0,0,0,0,0,0,2017</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:18 2019</timestamp>
+</msg>
+<msg id="93" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320,5696</arg>
+  <arg>1,1,1,1,1,1,1,0</arg>
+  <arg>14366,0,0,0,0,0,0,12189</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:19 2019</timestamp>
+</msg>
+<msg id="94" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\resourcepolicyclient.dll</arg>
+  <arg>0x14a00000</arg>
+  <arg>0x14a0efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:19 2019</timestamp>
+</msg>
+<msg id="95" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\ResourcePolicyClient.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:20 2019</timestamp>
+</msg>
+<msg id="96" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320</arg>
+  <arg>0,1,1,1,1,1,1</arg>
+  <arg>15932,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:20 2019</timestamp>
+</msg>
+<msg id="97" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320</arg>
+  <arg>0,1,1,1,1,1,1</arg>
+  <arg>1523,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:21 2019</timestamp>
+</msg>
+<msg id="98" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320</arg>
+  <arg>0,1,1,1,1,1,1</arg>
+  <arg>10785,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:22 2019</timestamp>
+</msg>
+<msg id="99" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320</arg>
+  <arg>0,1,1,1,1,1,1</arg>
+  <arg>21609,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:23 2019</timestamp>
+</msg>
+<msg id="100" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320</arg>
+  <arg>0,1,1,1,1,1,1</arg>
+  <arg>25959,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:24 2019</timestamp>
+</msg>
+<msg id="101" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320</arg>
+  <arg>0,1,1,1,1,1,1</arg>
+  <arg>29474,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:25 2019</timestamp>
+</msg>
+<msg id="102" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320</arg>
+  <arg>0,1,1,1,1,1,1</arg>
+  <arg>8481,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:26 2019</timestamp>
+</msg>
+<msg id="103" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320</arg>
+  <arg>0,1,1,1,1,1,1</arg>
+  <arg>9245,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:27 2019</timestamp>
+</msg>
+<msg id="104" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320</arg>
+  <arg>0,1,1,1,1,1,1</arg>
+  <arg>15049,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:28 2019</timestamp>
+</msg>
+<msg id="105" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320,24268</arg>
+  <arg>0,1,1,1,1,1,1,1</arg>
+  <arg>55979,0,0,0,0,0,0,1697</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:29 2019</timestamp>
+</msg>
+<msg id="106" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320,24268</arg>
+  <arg>0,1,1,1,1,1,1,1</arg>
+  <arg>78877,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:30 2019</timestamp>
+</msg>
+<msg id="107" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\gpapi.dll</arg>
+  <arg>0x6ce60000</arg>
+  <arg>0x6ce7dfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:31 2019</timestamp>
+</msg>
+<msg id="108" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320,24268</arg>
+  <arg>0,1,1,1,1,1,1,1</arg>
+  <arg>277703,0,0,0,0,0,12,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:31 2019</timestamp>
+</msg>
+<msg id="109" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\cryptnet.dll</arg>
+  <arg>0x6ce30000</arg>
+  <arg>0x6ce55fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:32 2019</timestamp>
+</msg>
+<msg id="110" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320,24268</arg>
+  <arg>0,1,1,1,1,1,1,1</arg>
+  <arg>60573,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:32 2019</timestamp>
+</msg>
+<msg id="111" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320,24268</arg>
+  <arg>0,1,1,1,1,1,1,1</arg>
+  <arg>28832,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:33 2019</timestamp>
+</msg>
+<msg id="112" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\program files\nvidia corporation\ansel\tools\nvcamerawhitelisting32.dll</arg>
+  <arg>0x7a170000</arg>
+  <arg>0x7a1eafff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:34 2019</timestamp>
+</msg>
+<msg id="113" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320,24268</arg>
+  <arg>0,1,1,1,1,1,1,1</arg>
+  <arg>181690,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:34 2019</timestamp>
+</msg>
+<msg id="114" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320,24268</arg>
+  <arg>0,1,1,1,1,1,1,1</arg>
+  <arg>16930,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:35 2019</timestamp>
+</msg>
+<msg id="115" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Program Files\NVIDIA Corporation\Ansel\Tools\NvCameraWhitelisting32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:35 2019</timestamp>
+</msg>
+<msg id="116" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320,24268,2792</arg>
+  <arg>0,1,1,1,1,1,1,1,1</arg>
+  <arg>7294,0,0,0,0,0,0,0,1834</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:36 2019</timestamp>
+</msg>
+<msg id="117" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320,24268,2792</arg>
+  <arg>0,1,1,1,1,1,1,1,1</arg>
+  <arg>10951,0,0,0,0,0,0,0,1804</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:37 2019</timestamp>
+</msg>
+<msg id="118" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320,24268,2792</arg>
+  <arg>0,1,1,1,1,1,1,1,1</arg>
+  <arg>561769,0,0,0,0,0,0,0,2767</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:38 2019</timestamp>
+</msg>
+<msg id="119" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320,24268,2792</arg>
+  <arg>0,1,1,1,1,1,1,1,1</arg>
+  <arg>3153828,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:39 2019</timestamp>
+</msg>
+<msg id="120" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320,24268,2792</arg>
+  <arg>1,1,1,1,1,1,1,1,0</arg>
+  <arg>981090,0,0,0,0,0,0,0,562</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:40 2019</timestamp>
+</msg>
+<msg id="121" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320,24268,2792</arg>
+  <arg>1,1,1,1,1,1,1,1,0</arg>
+  <arg>693,0,0,0,0,0,0,0,17901</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:41 2019</timestamp>
+</msg>
+<msg id="122" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320,24268,2792</arg>
+  <arg>1,1,1,1,1,1,1,1,0</arg>
+  <arg>12,0,0,0,0,0,0,0,19647</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:42 2019</timestamp>
+</msg>
+<msg id="123" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320,24268,2792</arg>
+  <arg>1,1,1,1,1,1,1,1,0</arg>
+  <arg>9026,0,0,0,0,0,0,0,55013</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:43 2019</timestamp>
+</msg>
+<msg id="124" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320,24268,2792,4412,24388,22760</arg>
+  <arg>1,1,1,1,1,1,1,1,0,1,1,0</arg>
+  <arg>138,0,0,0,0,0,0,0,65635,2003,1753,1093</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:44 2019</timestamp>
+</msg>
+<msg id="125" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\textinputframework.dll</arg>
+  <arg>0x60d60000</arg>
+  <arg>0x60de3fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:44 2019</timestamp>
+</msg>
+<msg id="126" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\coreuicomponents.dll</arg>
+  <arg>0x69da0000</arg>
+  <arg>0x69ffdfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:44 2019</timestamp>
+</msg>
+<msg id="127" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\coremessaging.dll</arg>
+  <arg>0x6a920000</arg>
+  <arg>0x6a9a8fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:44 2019</timestamp>
+</msg>
+<msg id="128" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\wintypes.dll</arg>
+  <arg>0x6a000000</arg>
+  <arg>0x6a0d9fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:44 2019</timestamp>
+</msg>
+<msg id="129" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320,24268,2792,4412,24388,22760</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>26480,0,0,0,0,0,0,0,577,0,0,581</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:45 2019</timestamp>
+</msg>
+<msg id="130" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320,24268,2792,4412,24388,22760</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>12031,0,0,0,0,0,24,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:46 2019</timestamp>
+</msg>
+<msg id="131" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\iertutil.dll</arg>
+  <arg>0x70500000</arg>
+  <arg>0x70728fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:46 2019</timestamp>
+</msg>
+<msg id="132" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320,24268,2792,4412,24388,22760</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>58404,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:47 2019</timestamp>
+</msg>
+<msg id="133" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320,24268,2792,4412,24388,22760</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>949692,0,0,0,0,0,0,0,24601,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:48 2019</timestamp>
+</msg>
+<msg id="134" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320,24268,2792,4412,24388,22760</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>1397257,0,0,0,0,0,0,0,24643,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:49 2019</timestamp>
+</msg>
+<msg id="135" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320,24268,2792,4412,24388,22760,12876,4024,22648,24028</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1</arg>
+  <arg>578383,0,0,0,0,0,0,0,31994,0,0,0,1835,1843,17108,1857</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:50 2019</timestamp>
+</msg>
+<msg id="136" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320,24268,2792,4412,24388,22760,12876,4024,22648,24028</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>1319704,0,0,0,0,0,0,0,0,0,0,0,0,0,13468,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:51 2019</timestamp>
+</msg>
+<msg id="137" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320,24268,2792,4412,24388,22760,12876,4024,22648,24028</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>1273184,0,0,0,0,0,0,0,25437,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:52 2019</timestamp>
+</msg>
+<msg id="138" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320,24268,2792,4412,24388,22760,12876,4024,22648,24028</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>1559132,0,0,0,0,0,0,0,24892,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:53 2019</timestamp>
+</msg>
+<msg id="139" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320,24268,2792,4412,24388,22760,12876,4024,22648,24028</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>1516593,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:54 2019</timestamp>
+</msg>
+<msg id="140" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320,24268,2792,4412,24388,22760,12876,4024,22648,24028</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>1519088,0,0,0,0,0,0,0,30996,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:55 2019</timestamp>
+</msg>
+<msg id="141" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320,24268,2792,4412,24388,22760,12876,4024,22648,24028</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>1446082,0,0,0,0,0,0,0,30980,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:56 2019</timestamp>
+</msg>
+<msg id="142" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320,24268,2792,4412,24388,22760,12876,4024,22648,24028</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>1238661,0,0,0,0,0,0,0,24698,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:57 2019</timestamp>
+</msg>
+<msg id="143" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12124,20936,7424,23200,13608,18280,21320,24268,2792,4412,24388,22760,12876,4024,22648,24028</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>1497361,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 30 21:36:58 2019</timestamp>
+</msg>
+<msg id="144" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>1</arg>
+</msg>
+<msg id="145" tool="runtool">
+  <type>marker-file</type>
+  <arg>C:\Users\Admin\source\repos\machine_learning_c\machine_learning_c\My Inspector Results - machine_learning_c\r005mi3\r005mi3.inspxe</arg>
+</msg>
+<msg id="146" tool="runtool">
+  <type>collector-canceled</type>
+</msg>
+<msg id="147" tool="runtool">
+  <type>log-end</type>
+  <arg>2019/12/30 21:37:02</arg>
+</msg>
+
+</log>
+

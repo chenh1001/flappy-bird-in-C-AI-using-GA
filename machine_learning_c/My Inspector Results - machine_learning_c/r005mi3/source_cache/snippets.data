@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+  <file name="c:\users\admin\source\repos\machine_learning_c\machine_learning_c\mainflappybird.c" md5="209319391cf25dc180889ddb5de11451">
+    <snippet line="52">
+      <line line="49"/>
+      <line line="50">    // Create a SDL window</line>
+      <line line="51">    SDL_Window *window = SDL_CreateWindow("Hello, SDL2", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, width, height, SDL_WINDOW_OPENGL);</line>
+      <line line="52"/>
+      <line line="53">    // Create a renderer (accelerated and in sync with the display refresh rate)</line>
+    </snippet>
+    <snippet line="55">
+      <line line="52"/>
+      <line line="53">    // Create a renderer (accelerated and in sync with the display refresh rate)</line>
+      <line line="54">    SDL_Renderer *renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);</line>
+      <line line="55"/>
+      <line line="56">    SDL_Surface * image = SDL_LoadBMP("E:/blueBall.bmp");</line>
+    </snippet>
+  </file>
+</snippets>

@@ -1,0 +1,22 @@
+11438302	mov edi, edi
+11438304	push ebp
+11438305	mov ebp, esp
+11438307	cmp dword ptr [ebp+0x8], 0x0
+11438311	jz 0xae8916
+11438313	push dword ptr [ebp+0x8]
+11438316	push 0x0
+11438318	push dword ptr [0x110d082c]
+11438324	call dword ptr [0x10b41374]
+11438330	test eax, eax
+11438332	jnz 0xae8916
+11438334	push esi
+11438335	call 0xadd306
+11438340	mov esi, eax
+11438342	call dword ptr [0x10b41120]
+11438348	push eax
+11438349	call 0xadd28d
+11438354	pop ecx
+11438355	mov dword ptr [esi], eax
+11438357	pop esi
+11438358	pop ebp
+11438359	ret 

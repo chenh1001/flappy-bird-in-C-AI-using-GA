@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<diags major="2" minor="0">
+
+<diag id="1">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>838327551</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>1232</threadid>
+			<stackstamp>838396791</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\users\admin\source\repos\machine_learning_c\debug\machine_learning_c.exe</mod>
+				<rva>0x1055</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>

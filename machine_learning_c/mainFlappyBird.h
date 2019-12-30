@@ -6,5 +6,7 @@
 #include <stdbool.h>
 #include <SDL.h>
 #include "Stack.h"
+#include "Matrix.h"
+#include "GeneticAlgorithm.h"
 
 #endif
