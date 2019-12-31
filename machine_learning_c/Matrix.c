@@ -62,7 +62,7 @@ void matrixDSigmoid(Matrix m)
 	{
 		for (int j = 0; j < m.cols; j++)
 		{
-			m.data[i][j] = m.data[i][j] * (1 - m.data[i][j]); //נגזרת של סיגמואיד
+			m.data[i][j] = m.data[i][j] * (1 - m.data[i][j]); 
 		}
 	}
 }
@@ -87,7 +87,7 @@ Matrix dSigmoid(Matrix a)
 	{
 		for (int j = 0; j < retM.cols; j++)
 		{
-			retM.data[i][j] = retM.data[i][j] * (1 - retM.data[i][j]); //נגזרת של סיגמואיד
+			retM.data[i][j] = retM.data[i][j] * (1 - retM.data[i][j]);
 		}
 	}
 	return retM;
@@ -106,7 +106,7 @@ Matrix transpose(Matrix m)
 	return temp;
 }
 
-void matrixAddMatrix(Matrix dest,Matrix m)
+void matrixAddMatrix(Matrix dest, Matrix m)
 {
 	for (int i = 0; i < dest.rows; i++)
 	{
@@ -131,7 +131,7 @@ Matrix substuct(Matrix a, Matrix b)
 }
 
 void matrixRandomize(Matrix m)
-{ 
+{
 	for (int i = 0; i < m.rows; i++)
 	{
 		for (int j = 0; j < m.cols; j++)
@@ -154,7 +154,7 @@ void matrixMultiplyNum(double n, Matrix m)
 	}
 }
 
-void matrixMultiplySimle(Matrix dest,Matrix m)
+void matrixMultiplySimle(Matrix dest, Matrix m)
 {
 
 	for (int i = 0; i < m.rows; i++)
@@ -172,7 +172,7 @@ Matrix matrixMultiply(Matrix a, Matrix b)
 	Matrix temp = newMatrix(a.rows, b.cols);
 	for (int i = 0; i < temp.rows; i++)
 	{
-		for(int j = 0; j < temp.cols; j++)
+		for (int j = 0; j < temp.cols; j++)
 		{
 			double sum = 0;
 			for (int k = 0; k < a.cols; k++)
@@ -191,7 +191,7 @@ void matrixPrint(Matrix m)
 	{
 		for (int j = 0; j < m.cols; j++)
 		{
-			printf("%0.4f ",m.data[i][j]);
+			printf("%0.4f ", m.data[i][j]);
 		}
 		printf("\n");
 	}

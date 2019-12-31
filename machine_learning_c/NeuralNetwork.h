@@ -13,9 +13,10 @@ typedef struct NeuralNets {
 
 } NeuralNetwork;
 
+void freeMatrix(Matrix m);
 NeuralNetwork newNeuralNetwork(int inputsLength, int hiddenLength, int outputsLength);
 NeuralNetwork copyNeuralNetwork(NeuralNetwork nn);
-double* NNfeedingForward(double* inputsArr, int inputSize, NeuralNetwork nn);
+Matrix NNfeedingForward(double* inputsArr, int inputSize, NeuralNetwork nn);
 void NNMutate(double mutateRate, NeuralNetwork nn);
 
 #endif

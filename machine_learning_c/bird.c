@@ -1,29 +1,17 @@
 #include "bird.h"
+#include "SDL.h"
 
 extern int width = 800;
 extern int height = 600;
 
-static const double JUMP_POWER = 10;
-static const double GRAVITY = 0.3;
+static const double JUMP_POWER = 5;
+static const double GRAVITY = 0.2;
+int startingX = 50;
 
-Bird* newBird(Bird* bird)
-{
-	Bird* temp = (Bird*)malloc(sizeof(Bird));
-	temp->velocity = 0;
-	temp->fittnes = 0;
-	temp->score = 0;
-	temp->x = 30;
-	temp->y = randBetweenZeroAndOne() * height / 2 + height / 4;
-	temp->isAlive = true;
-	temp->brain = copyNeuralNetwork(bird->brain);
-	temp->circle = bird->circle;
-
-	return temp;
-}
 
 void birdJump(Bird* bird)
 {
-	if (bird->velocity >= 0)
+	//if (bird->velocity >= 0)
 		bird->velocity -= JUMP_POWER;
 }
 
@@ -39,15 +27,28 @@ void birdUpdate(Bird* bird)
 	}
 }
 
+void resetBirdNoBrain(Bird* bird)
+{
+	bird->velocity = 0;
+	bird->fittnes = 0;
+	bird->score = 0;
+	bird->x = startingX;
+	bird->y = randBetweenZeroAndOne() * height / 2 + height / 4;
+	bird->isAlive = true;
+}
 
 void resetBird(Bird* bird)
 {
 	bird->velocity = 0;
 	bird->fittnes = 0;
 	bird->score = 0;
-	bird->x = 30;
+	bird->x = startingX;
 	bird->y = randBetweenZeroAndOne() * height / 2 + height / 4;
 	bird->isAlive = true;
 	bird->brain = newNeuralNetwork(5, 8, 2);
+	SDL_Surface * image = SDL_LoadBMP("E:/blueBall.bmp");
+	Uint32 colorkey = SDL_MapRGB(image->format, 255, 255, 255);
+	SDL_SetColorKey(image, SDL_TRUE, colorkey);
+	bird->circle = image;
 }
 

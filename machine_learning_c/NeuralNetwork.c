@@ -34,11 +34,28 @@ NeuralNetwork copyNeuralNetwork(NeuralNetwork nn)
 	return temp;
 }
 
-double* NNfeedingForward(double* inputsArr,int inputSize, NeuralNetwork nn)
+void freeMatrix(Matrix m)
+{
+	for (int i = 0; i<m.rows; i++)
+	{
+		free(m.data[i]);
+	}
+	free(m.data);
+	m.data = NULL;
+}
+
+Matrix NNfeedingForward(double* inputsArr,int inputSize, NeuralNetwork nn)
 {
 	Matrix inputs = newMatrix(inputSize, 1);
-	inputs.data[0] = inputsArr;
-	Matrix hidden = matrixMultiply(nn.weigthsIH, inputs);
+	double temp = 0;
+	for (int i = 0; i < inputs.rows; i++)
+	{
+		temp = inputsArr[i];
+		inputs.data[i][0] = temp;
+	}
+	//printf(inputs.data[1]);
+	//matrixPrint(inputs);
+	Matrix hidden = matrixMultiply(nn.weigthsIH,inputs );
 	matrixAddMatrix(hidden, nn.biasH);
 	matrixSigmoid(hidden);
 
@@ -47,9 +64,13 @@ double* NNfeedingForward(double* inputsArr,int inputSize, NeuralNetwork nn)
 	Matrix outputs = matrixMultiply(nn.weigthsHO, hidden);
 	matrixAddMatrix(outputs, nn.biasO);
 	matrixSigmoid(outputs);
-	outputs = transpose(outputs);
+	Matrix transposed = transpose(outputs);
 
-	return outputs.data[0];
+	freeMatrix(inputs);
+	freeMatrix(hidden);
+	freeMatrix(outputs);
+
+	return transposed;
 }
 
 void NNMutate(double mutateRate, NeuralNetwork nn)

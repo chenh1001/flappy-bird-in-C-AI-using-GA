@@ -127,7 +127,7 @@
     <ClInclude Include="Matrix.h" />
     <ClInclude Include="NeuralNetwork.h" />
     <ClInclude Include="pipe.h" />
-    <ClInclude Include="Stack.h" />
+    <ClInclude Include="Queue.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="bird.c" />
@@ -136,7 +136,7 @@
     <ClCompile Include="NeuralNetwork.c" />
     <ClCompile Include="pipe.c" />
     <ClCompile Include="mainFlappyBird.c" />
-    <ClCompile Include="Stack.c" />
+    <ClCompile Include="Queue.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

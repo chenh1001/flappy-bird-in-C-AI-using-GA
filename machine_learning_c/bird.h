@@ -16,16 +16,8 @@ typedef struct Birds {
 	NeuralNetwork brain;
 } Bird;
 
-/*struct Birds newBird() {
-	double fittnes = 0;
-	int score = 0;
-	int x = 30;
-	double y = height / 2;
-	SDL_Surface* circle;
-	double velocity = 0;
-	bool isAlive = true;
-}*/
-Bird* newBird(Bird* bird);
+
+void resetBirdNoBrain(Bird* bird);
 void birdJump(Bird *bird);
 void birdUpdate(Bird *bird);
 void resetBird(Bird *bird);

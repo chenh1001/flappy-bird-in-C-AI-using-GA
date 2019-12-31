@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+  <file name="c:\users\admin\source\repos\machine_learning_c\machine_learning_c\geneticalgorithm.c" md5="1863dd668c9d114d21b81de2dee5398d">
+    <snippet line="65">
+      <line line="62">    for (int i = 0; i &lt; numOfBirds; i++)</line>
+      <line line="63">    {</line>
+      <line line="64">        for (int i = 0; i&lt;birds[i]-&gt;brain.weigthsHO.rows; i++)</line>
+      <line line="65">        {</line>
+      <line line="66">            free(birds[i]-&gt;brain.weigthsHO.data[i]);</line>
+    </snippet>
+    <snippet line="67">
+      <line line="64">        for (int i = 0; i&lt;birds[i]-&gt;brain.weigthsHO.rows; i++)</line>
+      <line line="65">        {</line>
+      <line line="66">            free(birds[i]-&gt;brain.weigthsHO.data[i]);</line>
+      <line line="67">        }</line>
+      <line line="68">        free(birds[i]-&gt;brain.weigthsHO.data);</line>
+    </snippet>
+    <snippet line="85">
+      <line line="82">        }</line>
+      <line line="83">        free(birds[i]-&gt;brain.weigthsIH.data);</line>
+      <line line="84">         free(birds[i]);</line>
+      <line line="85">    }</line>
+      <line line="86">    free(birds);</line>
+    </snippet>
+  </file>
+  <file name="c:\users\admin\source\repos\machine_learning_c\machine_learning_c\mainflappybird.c" md5="a41cc321a1ff19ab8dd44f7f20758ff4">
+    <snippet line="52">
+      <line line="49"/>
+      <line line="50">    // Create a SDL window</line>
+      <line line="51">    SDL_Window *window = SDL_CreateWindow("Hello, SDL2", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, width, height, SDL_WINDOW_OPENGL);</line>
+      <line line="52"/>
+      <line line="53">    // Create a renderer (accelerated and in sync with the display refresh rate)</line>
+    </snippet>
+    <snippet line="55">
+      <line line="52"/>
+      <line line="53">    // Create a renderer (accelerated and in sync with the display refresh rate)</line>
+      <line line="54">    SDL_Renderer *renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);</line>
+      <line line="55"/>
+      <line line="56">    SDL_Surface * image = SDL_LoadBMP("E:/blueBall.bmp");</line>
+    </snippet>
+    <snippet line="70">
+      <line line="67">    for (int i = 0; i&lt;numOfBirds; i++)</line>
+      <line line="68">    {</line>
+      <line line="69">        birds[i] = (Bird*)malloc(sizeof(Bird));</line>
+      <line line="70">    }</line>
+      <line line="71">    for (int i = 0; i &lt; numOfBirds; i++)</line>
+    </snippet>
+  </file>
+</snippets>

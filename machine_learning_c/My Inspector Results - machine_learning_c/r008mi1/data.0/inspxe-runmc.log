@@ -1,0 +1,2537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2019/12/31 12:16:20</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>marker-file</type>
+  <arg>C:\Users\Admin\source\repos\machine_learning_c\machine_learning_c\My Inspector Results - machine_learning_c\r008mi1\r008mi1.inspxe</arg>
+</msg>
+<msg id="4" tool="mc">
+  <type>EXEC_OF_INTEREST</type>
+  <arg>c:\users\admin\source\repos\machine_learning_c\debug\machine_learning_c.exe</arg>
+  <arg>22240</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:20 2019</timestamp>
+</msg>
+<msg id="5" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\users\admin\source\repos\machine_learning_c\debug\machine_learning_c.exe</arg>
+  <arg>0x550000</arg>
+  <arg>0x561fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:20 2019</timestamp>
+</msg>
+<msg id="6" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\program files\avg\antivirus\aswhookx.dll</arg>
+  <arg>0x67c40000</arg>
+  <arg>0x67c50fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:20 2019</timestamp>
+</msg>
+<msg id="7" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\kernel32.dll</arg>
+  <arg>0x75c80000</arg>
+  <arg>0x75d5ffff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:20 2019</timestamp>
+</msg>
+<msg id="8" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\kernelbase.dll</arg>
+  <arg>0x762d0000</arg>
+  <arg>0x764cbfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:20 2019</timestamp>
+</msg>
+<msg id="9" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\ntdll.dll</arg>
+  <arg>0x77370000</arg>
+  <arg>0x77509fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:20 2019</timestamp>
+</msg>
+<msg id="10" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\users\admin\source\repos\machine_learning_c\machine_learning_c\sdl2.dll</arg>
+  <arg>0x7b240000</arg>
+  <arg>0x7b363fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="11" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\advapi32.dll</arg>
+  <arg>0x768a0000</arg>
+  <arg>0x76918fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="12" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\msvcrt.dll</arg>
+  <arg>0x76590000</arg>
+  <arg>0x7664efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="13" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\sechost.dll</arg>
+  <arg>0x75de0000</arg>
+  <arg>0x75e55fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="14" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\rpcrt4.dll</arg>
+  <arg>0x77220000</arg>
+  <arg>0x772dafff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="15" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\sspicli.dll</arg>
+  <arg>0x74b40000</arg>
+  <arg>0x74b5ffff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="16" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\cryptbase.dll</arg>
+  <arg>0x74b30000</arg>
+  <arg>0x74b39fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="17" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\bcryptprimitives.dll</arg>
+  <arg>0x767c0000</arg>
+  <arg>0x7681efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="18" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\gdi32.dll</arg>
+  <arg>0x77330000</arg>
+  <arg>0x77350fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="19" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\win32u.dll</arg>
+  <arg>0x77310000</arg>
+  <arg>0x77326fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="20" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\gdi32full.dll</arg>
+  <arg>0x760e0000</arg>
+  <arg>0x76239fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="21" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\msvcp_win.dll</arg>
+  <arg>0x74c80000</arg>
+  <arg>0x74cfbfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="22" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\ucrtbase.dll</arg>
+  <arg>0x74b60000</arg>
+  <arg>0x74c7efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="23" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\user32.dll</arg>
+  <arg>0x75670000</arg>
+  <arg>0x75806fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="24" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\imm32.dll</arg>
+  <arg>0x76870000</arg>
+  <arg>0x76894fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="25" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\ole32.dll</arg>
+  <arg>0x74f80000</arg>
+  <arg>0x75076fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="26" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\combase.dll</arg>
+  <arg>0x74d00000</arg>
+  <arg>0x74f75fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="27" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\oleaut32.dll</arg>
+  <arg>0x764e0000</arg>
+  <arg>0x76571fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="28" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\setupapi.dll</arg>
+  <arg>0x75810000</arg>
+  <arg>0x75c58fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="29" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\cfgmgr32.dll</arg>
+  <arg>0x75f90000</arg>
+  <arg>0x75fcafff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="30" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\bcrypt.dll</arg>
+  <arg>0x75c60000</arg>
+  <arg>0x75c78fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="31" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\shell32.dll</arg>
+  <arg>0x750e0000</arg>
+  <arg>0x75659fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="32" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\shcore.dll</arg>
+  <arg>0x76240000</arg>
+  <arg>0x762c3fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="33" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\windows.storage.dll</arg>
+  <arg>0x769f0000</arg>
+  <arg>0x76fb4fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="34" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\profapi.dll</arg>
+  <arg>0x75e60000</arg>
+  <arg>0x75e76fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="35" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\powrprof.dll</arg>
+  <arg>0x770c0000</arg>
+  <arg>0x77102fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="36" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\umpdc.dll</arg>
+  <arg>0x76580000</arg>
+  <arg>0x7658cfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="37" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\shlwapi.dll</arg>
+  <arg>0x76fc0000</arg>
+  <arg>0x77003fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="38" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\kernel.appcore.dll</arg>
+  <arg>0x77300000</arg>
+  <arg>0x7730efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="39" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\cryptsp.dll</arg>
+  <arg>0x772e0000</arg>
+  <arg>0x772f2fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="40" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\vcruntime140d.dll</arg>
+  <arg>0x1100000</arg>
+  <arg>0x1119fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="41" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\ucrtbased.dll</arg>
+  <arg>0x7b370000</arg>
+  <arg>0x7b4e0fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="42" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\version.dll</arg>
+  <arg>0x74380000</arg>
+  <arg>0x74387fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="43" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\winmm.dll</arg>
+  <arg>0x71870000</arg>
+  <arg>0x71893fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="44" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\winmmbase.dll</arg>
+  <arg>0x70c80000</arg>
+  <arg>0x70ca2fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:21 2019</timestamp>
+</msg>
+<msg id="45" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\uxtheme.dll</arg>
+  <arg>0x71c90000</arg>
+  <arg>0x71d09fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:23 2019</timestamp>
+</msg>
+<msg id="46" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\opengl32.dll</arg>
+  <arg>0xda70000</arg>
+  <arg>0xdb6efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:24 2019</timestamp>
+</msg>
+<msg id="47" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\glu32.dll</arg>
+  <arg>0xd680000</arg>
+  <arg>0xd6befff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:24 2019</timestamp>
+</msg>
+<msg id="48" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\dxcore.dll</arg>
+  <arg>0x6b0d0000</arg>
+  <arg>0x6b0e8fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:24 2019</timestamp>
+</msg>
+<msg id="49" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\msctf.dll</arg>
+  <arg>0x75fd0000</arg>
+  <arg>0x760d2fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:24 2019</timestamp>
+</msg>
+<msg id="50" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\driverstore\filerepository\nv_dispi.inf_amd64_db678424d2641c3d\nvoglv32.dll</arg>
+  <arg>0xdba0000</arg>
+  <arg>0xf8defff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:24 2019</timestamp>
+</msg>
+<msg id="51" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\wtsapi32.dll</arg>
+  <arg>0x73510000</arg>
+  <arg>0x7351efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:24 2019</timestamp>
+</msg>
+<msg id="52" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388</arg>
+  <arg>0</arg>
+  <arg>194977</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:24 2019</timestamp>
+</msg>
+<msg id="53" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,22424</arg>
+  <arg>0,1</arg>
+  <arg>60355,90</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:25 2019</timestamp>
+</msg>
+<msg id="54" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\devobj.dll</arg>
+  <arg>0x6d260000</arg>
+  <arg>0x6d282fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:26 2019</timestamp>
+</msg>
+<msg id="55" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\wintrust.dll</arg>
+  <arg>0x76820000</arg>
+  <arg>0x76865fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:26 2019</timestamp>
+</msg>
+<msg id="56" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\msasn1.dll</arg>
+  <arg>0x764d0000</arg>
+  <arg>0x764ddfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:26 2019</timestamp>
+</msg>
+<msg id="57" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\crypt32.dll</arg>
+  <arg>0x75e80000</arg>
+  <arg>0x75f7afff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:26 2019</timestamp>
+</msg>
+<msg id="58" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\ntmarta.dll</arg>
+  <arg>0x70cb0000</arg>
+  <arg>0x70cd8fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:26 2019</timestamp>
+</msg>
+<msg id="59" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,22424</arg>
+  <arg>0,1</arg>
+  <arg>88839,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:26 2019</timestamp>
+</msg>
+<msg id="60" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\dwmapi.dll</arg>
+  <arg>0x71820000</arg>
+  <arg>0x71844fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:27 2019</timestamp>
+</msg>
+<msg id="61" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388</arg>
+  <arg>0</arg>
+  <arg>958807</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:27 2019</timestamp>
+</msg>
+<msg id="62" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\nvspcap.dll</arg>
+  <arg>0x7af10000</arg>
+  <arg>0x7b139fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:28 2019</timestamp>
+</msg>
+<msg id="63" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388</arg>
+  <arg>0</arg>
+  <arg>2344779</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:28 2019</timestamp>
+</msg>
+<msg id="64" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132</arg>
+  <arg>0,1</arg>
+  <arg>2548413,1576</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:29 2019</timestamp>
+</msg>
+<msg id="65" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300</arg>
+  <arg>0,1,1</arg>
+  <arg>867101,0,1410</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:30 2019</timestamp>
+</msg>
+<msg id="66" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\winsta.dll</arg>
+  <arg>0x729c0000</arg>
+  <arg>0x72a08fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:31 2019</timestamp>
+</msg>
+<msg id="67" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860</arg>
+  <arg>0,1,1,1,1,1</arg>
+  <arg>1101715,0,0,11179,1714,1460</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:31 2019</timestamp>
+</msg>
+<msg id="68" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860</arg>
+  <arg>0,1,1,1,1,1</arg>
+  <arg>151853,0,0,49,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:32 2019</timestamp>
+</msg>
+<msg id="69" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\clbcatq.dll</arg>
+  <arg>0x75d60000</arg>
+  <arg>0x75ddffff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:33 2019</timestamp>
+</msg>
+<msg id="70" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860</arg>
+  <arg>0,1,1,1,1,1</arg>
+  <arg>490477,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:33 2019</timestamp>
+</msg>
+<msg id="71" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\d3d9.dll</arg>
+  <arg>0x607d0000</arg>
+  <arg>0x6095dfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:34 2019</timestamp>
+</msg>
+<msg id="72" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860</arg>
+  <arg>0,1,1,1,1,1</arg>
+  <arg>33439,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:34 2019</timestamp>
+</msg>
+<msg id="73" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\driverstore\filerepository\nv_dispi.inf_amd64_db678424d2641c3d\nvldumd.dll</arg>
+  <arg>0x5f030000</arg>
+  <arg>0x5f0f6fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:34 2019</timestamp>
+</msg>
+<msg id="74" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\imagehlp.dll</arg>
+  <arg>0x77110000</arg>
+  <arg>0x7712afff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:35 2019</timestamp>
+</msg>
+<msg id="75" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\rsaenh.dll</arg>
+  <arg>0x73a50000</arg>
+  <arg>0x73a7efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:35 2019</timestamp>
+</msg>
+<msg id="76" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,18756</arg>
+  <arg>1,1,1,1,1,1,1</arg>
+  <arg>41039,0,0,0,0,0,1532</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:35 2019</timestamp>
+</msg>
+<msg id="77" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\system32\driverstore\filerepository\nv_dispi.inf_amd64_db678424d2641c3d\nvd3dum.dll</arg>
+  <arg>0x183b0000</arg>
+  <arg>0x194e6fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:36 2019</timestamp>
+</msg>
+<msg id="78" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,18756,11240</arg>
+  <arg>0,1,1,1,1,1,1,1</arg>
+  <arg>82463,0,0,0,0,0,0,4821</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:36 2019</timestamp>
+</msg>
+<msg id="79" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\resourcepolicyclient.dll</arg>
+  <arg>0x7b8d0000</arg>
+  <arg>0x7b8defff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:37 2019</timestamp>
+</msg>
+<msg id="80" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\ResourcePolicyClient.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:37 2019</timestamp>
+</msg>
+<msg id="81" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,18756</arg>
+  <arg>0,1,1,1,1,1,1</arg>
+  <arg>38007,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:37 2019</timestamp>
+</msg>
+<msg id="82" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,18756</arg>
+  <arg>0,1,1,1,1,1,1</arg>
+  <arg>72582,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:38 2019</timestamp>
+</msg>
+<msg id="83" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,18756</arg>
+  <arg>0,1,1,1,1,1,1</arg>
+  <arg>38774,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:39 2019</timestamp>
+</msg>
+<msg id="84" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,18756,7788</arg>
+  <arg>0,1,1,1,1,1,1,1</arg>
+  <arg>153763,0,0,0,0,0,0,1730</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:40 2019</timestamp>
+</msg>
+<msg id="85" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\gpapi.dll</arg>
+  <arg>0x6ce60000</arg>
+  <arg>0x6ce7dfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:41 2019</timestamp>
+</msg>
+<msg id="86" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\cryptnet.dll</arg>
+  <arg>0x6ce30000</arg>
+  <arg>0x6ce55fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:41 2019</timestamp>
+</msg>
+<msg id="87" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,18756,7788</arg>
+  <arg>0,1,1,1,1,1,1,1</arg>
+  <arg>336905,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:41 2019</timestamp>
+</msg>
+<msg id="88" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\program files\nvidia corporation\ansel\tools\nvcamerawhitelisting32.dll</arg>
+  <arg>0x196d0000</arg>
+  <arg>0x1974afff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:42 2019</timestamp>
+</msg>
+<msg id="89" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,18756,7788</arg>
+  <arg>0,1,1,1,1,1,1,1</arg>
+  <arg>206636,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:42 2019</timestamp>
+</msg>
+<msg id="90" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Program Files\NVIDIA Corporation\Ansel\Tools\NvCameraWhitelisting32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:43 2019</timestamp>
+</msg>
+<msg id="91" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,18756,7788,18004</arg>
+  <arg>0,1,1,1,1,1,1,1,1</arg>
+  <arg>25585,0,0,0,0,0,0,0,3692</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:43 2019</timestamp>
+</msg>
+<msg id="92" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\textinputframework.dll</arg>
+  <arg>0x60d60000</arg>
+  <arg>0x60de3fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:44 2019</timestamp>
+</msg>
+<msg id="93" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\coreuicomponents.dll</arg>
+  <arg>0x69da0000</arg>
+  <arg>0x69ffdfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:44 2019</timestamp>
+</msg>
+<msg id="94" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\coremessaging.dll</arg>
+  <arg>0x6a920000</arg>
+  <arg>0x6a9a8fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:44 2019</timestamp>
+</msg>
+<msg id="95" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\wintypes.dll</arg>
+  <arg>0x6a000000</arg>
+  <arg>0x6a0d9fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:44 2019</timestamp>
+</msg>
+<msg id="96" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,18756,7788,18004</arg>
+  <arg>0,1,1,1,1,1,1,1,1</arg>
+  <arg>258305,0,0,0,0,0,0,0,2702</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:44 2019</timestamp>
+</msg>
+<msg id="97" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\iertutil.dll</arg>
+  <arg>0x70500000</arg>
+  <arg>0x70728fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:45 2019</timestamp>
+</msg>
+<msg id="98" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,18756,7788,18004</arg>
+  <arg>0,1,1,1,1,1,1,1,1</arg>
+  <arg>24220,0,0,0,0,527,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:45 2019</timestamp>
+</msg>
+<msg id="99" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,18756,7788,18004</arg>
+  <arg>1,1,1,1,1,1,1,1,0</arg>
+  <arg>95756,0,0,0,0,0,0,0,27448</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:46 2019</timestamp>
+</msg>
+<msg id="100" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,18756,7788,18004,19316</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1</arg>
+  <arg>146864,0,0,0,0,0,0,0,114109,1811</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:47 2019</timestamp>
+</msg>
+<msg id="101" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,18756,7788,18004,19316</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1</arg>
+  <arg>1965833,0,0,0,0,0,0,0,77907,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:48 2019</timestamp>
+</msg>
+<msg id="102" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,18756,7788,18004,19316</arg>
+  <arg>1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>829824,0,0,0,0,0,0,0,120877,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:49 2019</timestamp>
+</msg>
+<msg id="103" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,18756,7788,18004,19316</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1</arg>
+  <arg>1275345,0,0,0,0,0,12,0,80027,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:50 2019</timestamp>
+</msg>
+<msg id="104" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,18756,7788,18004,19316</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1</arg>
+  <arg>1813621,0,0,0,0,0,0,0,39285,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:51 2019</timestamp>
+</msg>
+<msg id="105" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,18756,7788,18004,19316</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2360777,0,0,0,0,0,0,0,9731,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:52 2019</timestamp>
+</msg>
+<msg id="106" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,18756,7788,18004,19316</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2362757,0,0,0,0,0,0,0,6654,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:53 2019</timestamp>
+</msg>
+<msg id="107" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,18756,7788,18004,19316</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2084297,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:54 2019</timestamp>
+</msg>
+<msg id="108" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,18756,7788,18004,19316</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2224820,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:55 2019</timestamp>
+</msg>
+<msg id="109" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,18756,7788,18004,19316</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2053224,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:56 2019</timestamp>
+</msg>
+<msg id="110" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,18756,7788,18004,19316</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2155512,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:57 2019</timestamp>
+</msg>
+<msg id="111" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,18756,7788,18004,19316</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2208237,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:58 2019</timestamp>
+</msg>
+<msg id="112" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,18756,7788,18004,19316</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2126465,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:16:59 2019</timestamp>
+</msg>
+<msg id="113" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,18756,7788,18004,19316</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2369650,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:00 2019</timestamp>
+</msg>
+<msg id="114" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,18756,7788,18004,19316</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2055136,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:01 2019</timestamp>
+</msg>
+<msg id="115" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,18756,7788,18004,19316,23936,10356,21452,22220</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2087968,0,0,0,0,0,0,0,25847,0,30465,1934,1973,1862</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:02 2019</timestamp>
+</msg>
+<msg id="116" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,18756,7788,18004,19316,23936,10356,21452,22220</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2121212,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:03 2019</timestamp>
+</msg>
+<msg id="117" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,18756,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2041017,0,0,0,0,0,0,0,0,0,0,0,0,0,2215,1810</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:04 2019</timestamp>
+</msg>
+<msg id="118" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2291560,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:05 2019</timestamp>
+</msg>
+<msg id="119" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2081568,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:06 2019</timestamp>
+</msg>
+<msg id="120" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2094642,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:07 2019</timestamp>
+</msg>
+<msg id="121" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2363047,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:08 2019</timestamp>
+</msg>
+<msg id="122" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2123484,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:09 2019</timestamp>
+</msg>
+<msg id="123" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2125161,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:10 2019</timestamp>
+</msg>
+<msg id="124" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>1,1,1,1,1,1,1,0,1,1,1,1,1,1,1</arg>
+  <arg>2060587,0,0,0,0,0,0,24028,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:11 2019</timestamp>
+</msg>
+<msg id="125" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2344877,0,0,0,0,0,0,1030,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:12 2019</timestamp>
+</msg>
+<msg id="126" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2104180,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:13 2019</timestamp>
+</msg>
+<msg id="127" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2082869,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:14 2019</timestamp>
+</msg>
+<msg id="128" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2337814,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:15 2019</timestamp>
+</msg>
+<msg id="129" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>1883207,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:16 2019</timestamp>
+</msg>
+<msg id="130" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2087346,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:17 2019</timestamp>
+</msg>
+<msg id="131" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2337644,0,0,0,0,0,0,24895,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:18 2019</timestamp>
+</msg>
+<msg id="132" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2127063,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:19 2019</timestamp>
+</msg>
+<msg id="133" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2101539,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:20 2019</timestamp>
+</msg>
+<msg id="134" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2367582,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:21 2019</timestamp>
+</msg>
+<msg id="135" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2100015,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:22 2019</timestamp>
+</msg>
+<msg id="136" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2136226,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:23 2019</timestamp>
+</msg>
+<msg id="137" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2358856,0,0,0,0,0,0,24660,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:24 2019</timestamp>
+</msg>
+<msg id="138" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2096644,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:25 2019</timestamp>
+</msg>
+<msg id="139" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2087209,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:26 2019</timestamp>
+</msg>
+<msg id="140" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2062773,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:27 2019</timestamp>
+</msg>
+<msg id="141" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2091822,0,0,0,0,0,0,24924,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:28 2019</timestamp>
+</msg>
+<msg id="142" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2360953,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:29 2019</timestamp>
+</msg>
+<msg id="143" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2100222,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:30 2019</timestamp>
+</msg>
+<msg id="144" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2120874,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:31 2019</timestamp>
+</msg>
+<msg id="145" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2346752,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:32 2019</timestamp>
+</msg>
+<msg id="146" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2125800,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:33 2019</timestamp>
+</msg>
+<msg id="147" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2074826,0,0,0,0,0,0,25259,0,0,0,0,0,368,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:34 2019</timestamp>
+</msg>
+<msg id="148" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2116789,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:35 2019</timestamp>
+</msg>
+<msg id="149" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2248167,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:36 2019</timestamp>
+</msg>
+<msg id="150" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2100932,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:37 2019</timestamp>
+</msg>
+<msg id="151" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2047224,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:38 2019</timestamp>
+</msg>
+<msg id="152" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2074759,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:39 2019</timestamp>
+</msg>
+<msg id="153" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2368017,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:40 2019</timestamp>
+</msg>
+<msg id="154" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2111954,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:41 2019</timestamp>
+</msg>
+<msg id="155" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2110637,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:42 2019</timestamp>
+</msg>
+<msg id="156" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2384923,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:43 2019</timestamp>
+</msg>
+<msg id="157" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>1704938,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:44 2019</timestamp>
+</msg>
+<msg id="158" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2011271,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:45 2019</timestamp>
+</msg>
+<msg id="159" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2056659,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:46 2019</timestamp>
+</msg>
+<msg id="160" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2295825,0,0,0,0,0,0,47548,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:47 2019</timestamp>
+</msg>
+<msg id="161" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2042371,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:48 2019</timestamp>
+</msg>
+<msg id="162" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2040324,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:49 2019</timestamp>
+</msg>
+<msg id="163" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2086041,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:50 2019</timestamp>
+</msg>
+<msg id="164" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2417662,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:51 2019</timestamp>
+</msg>
+<msg id="165" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2085728,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:52 2019</timestamp>
+</msg>
+<msg id="166" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2110155,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:53 2019</timestamp>
+</msg>
+<msg id="167" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2358067,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:54 2019</timestamp>
+</msg>
+<msg id="168" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2091912,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:55 2019</timestamp>
+</msg>
+<msg id="169" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2070085,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:56 2019</timestamp>
+</msg>
+<msg id="170" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2071131,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:57 2019</timestamp>
+</msg>
+<msg id="171" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2366421,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:58 2019</timestamp>
+</msg>
+<msg id="172" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2109850,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:17:59 2019</timestamp>
+</msg>
+<msg id="173" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2104913,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:00 2019</timestamp>
+</msg>
+<msg id="174" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2008900,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:01 2019</timestamp>
+</msg>
+<msg id="175" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2377986,0,0,0,0,0,0,47478,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:02 2019</timestamp>
+</msg>
+<msg id="176" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2108520,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:03 2019</timestamp>
+</msg>
+<msg id="177" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2109773,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:04 2019</timestamp>
+</msg>
+<msg id="178" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2109678,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:05 2019</timestamp>
+</msg>
+<msg id="179" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2374119,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:06 2019</timestamp>
+</msg>
+<msg id="180" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2024606,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:07 2019</timestamp>
+</msg>
+<msg id="181" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2035426,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:08 2019</timestamp>
+</msg>
+<msg id="182" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2344818,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:09 2019</timestamp>
+</msg>
+<msg id="183" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2106447,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:10 2019</timestamp>
+</msg>
+<msg id="184" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2116835,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:11 2019</timestamp>
+</msg>
+<msg id="185" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2101061,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:12 2019</timestamp>
+</msg>
+<msg id="186" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2368031,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:13 2019</timestamp>
+</msg>
+<msg id="187" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2091085,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:14 2019</timestamp>
+</msg>
+<msg id="188" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2081226,0,0,0,0,334,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:15 2019</timestamp>
+</msg>
+<msg id="189" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2100242,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:16 2019</timestamp>
+</msg>
+<msg id="190" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2337195,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:17 2019</timestamp>
+</msg>
+<msg id="191" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2104102,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:18 2019</timestamp>
+</msg>
+<msg id="192" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2103703,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:19 2019</timestamp>
+</msg>
+<msg id="193" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2047228,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:20 2019</timestamp>
+</msg>
+<msg id="194" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2223999,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:21 2019</timestamp>
+</msg>
+<msg id="195" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2050167,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:22 2019</timestamp>
+</msg>
+<msg id="196" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2102959,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:23 2019</timestamp>
+</msg>
+<msg id="197" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2326489,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:24 2019</timestamp>
+</msg>
+<msg id="198" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2131566,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:25 2019</timestamp>
+</msg>
+<msg id="199" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2095468,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:26 2019</timestamp>
+</msg>
+<msg id="200" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2002084,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:27 2019</timestamp>
+</msg>
+<msg id="201" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2413604,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:28 2019</timestamp>
+</msg>
+<msg id="202" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2128053,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:29 2019</timestamp>
+</msg>
+<msg id="203" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2129282,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:30 2019</timestamp>
+</msg>
+<msg id="204" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2115244,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:31 2019</timestamp>
+</msg>
+<msg id="205" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2356413,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:32 2019</timestamp>
+</msg>
+<msg id="206" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2080932,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:33 2019</timestamp>
+</msg>
+<msg id="207" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2109220,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:34 2019</timestamp>
+</msg>
+<msg id="208" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2088635,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:35 2019</timestamp>
+</msg>
+<msg id="209" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2322374,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:36 2019</timestamp>
+</msg>
+<msg id="210" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2057436,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:37 2019</timestamp>
+</msg>
+<msg id="211" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2084042,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:38 2019</timestamp>
+</msg>
+<msg id="212" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2100640,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:39 2019</timestamp>
+</msg>
+<msg id="213" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2367490,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:40 2019</timestamp>
+</msg>
+<msg id="214" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2088807,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:41 2019</timestamp>
+</msg>
+<msg id="215" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2094186,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:42 2019</timestamp>
+</msg>
+<msg id="216" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2115707,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:43 2019</timestamp>
+</msg>
+<msg id="217" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2329500,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:44 2019</timestamp>
+</msg>
+<msg id="218" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2120665,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:45 2019</timestamp>
+</msg>
+<msg id="219" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2110538,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:46 2019</timestamp>
+</msg>
+<msg id="220" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2082224,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:47 2019</timestamp>
+</msg>
+<msg id="221" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2363888,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:48 2019</timestamp>
+</msg>
+<msg id="222" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2109872,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:49 2019</timestamp>
+</msg>
+<msg id="223" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2102764,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:50 2019</timestamp>
+</msg>
+<msg id="224" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2092676,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:51 2019</timestamp>
+</msg>
+<msg id="225" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2362445,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:52 2019</timestamp>
+</msg>
+<msg id="226" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2038920,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:53 2019</timestamp>
+</msg>
+<msg id="227" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2094852,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:54 2019</timestamp>
+</msg>
+<msg id="228" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2071462,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:55 2019</timestamp>
+</msg>
+<msg id="229" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2347848,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:56 2019</timestamp>
+</msg>
+<msg id="230" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2092656,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:57 2019</timestamp>
+</msg>
+<msg id="231" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2103174,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:58 2019</timestamp>
+</msg>
+<msg id="232" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2070469,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:18:59 2019</timestamp>
+</msg>
+<msg id="233" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2333136,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:00 2019</timestamp>
+</msg>
+<msg id="234" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2107193,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:01 2019</timestamp>
+</msg>
+<msg id="235" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2089394,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:02 2019</timestamp>
+</msg>
+<msg id="236" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2097356,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:03 2019</timestamp>
+</msg>
+<msg id="237" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2425839,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:04 2019</timestamp>
+</msg>
+<msg id="238" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2103823,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:05 2019</timestamp>
+</msg>
+<msg id="239" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2110136,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:06 2019</timestamp>
+</msg>
+<msg id="240" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2232725,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:07 2019</timestamp>
+</msg>
+<msg id="241" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2209916,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:08 2019</timestamp>
+</msg>
+<msg id="242" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2120145,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:09 2019</timestamp>
+</msg>
+<msg id="243" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2108698,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:10 2019</timestamp>
+</msg>
+<msg id="244" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2092663,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:11 2019</timestamp>
+</msg>
+<msg id="245" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2318906,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:12 2019</timestamp>
+</msg>
+<msg id="246" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2106659,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:13 2019</timestamp>
+</msg>
+<msg id="247" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2111355,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:14 2019</timestamp>
+</msg>
+<msg id="248" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2415755,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:15 2019</timestamp>
+</msg>
+<msg id="249" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2085995,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:16 2019</timestamp>
+</msg>
+<msg id="250" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2115918,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:17 2019</timestamp>
+</msg>
+<msg id="251" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2117505,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:18 2019</timestamp>
+</msg>
+<msg id="252" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2349955,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:19 2019</timestamp>
+</msg>
+<msg id="253" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2112924,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:20 2019</timestamp>
+</msg>
+<msg id="254" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>1828159,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:21 2019</timestamp>
+</msg>
+<msg id="255" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2351667,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:22 2019</timestamp>
+</msg>
+<msg id="256" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2058348,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:23 2019</timestamp>
+</msg>
+<msg id="257" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2119894,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:24 2019</timestamp>
+</msg>
+<msg id="258" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2105815,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:25 2019</timestamp>
+</msg>
+<msg id="259" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2087668,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:26 2019</timestamp>
+</msg>
+<msg id="260" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2367905,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:27 2019</timestamp>
+</msg>
+<msg id="261" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2078197,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:28 2019</timestamp>
+</msg>
+<msg id="262" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2084459,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:29 2019</timestamp>
+</msg>
+<msg id="263" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2056372,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:30 2019</timestamp>
+</msg>
+<msg id="264" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2333571,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:31 2019</timestamp>
+</msg>
+<msg id="265" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2088437,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:32 2019</timestamp>
+</msg>
+<msg id="266" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2073457,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:33 2019</timestamp>
+</msg>
+<msg id="267" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2077459,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:34 2019</timestamp>
+</msg>
+<msg id="268" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2019751,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:35 2019</timestamp>
+</msg>
+<msg id="269" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2296613,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:36 2019</timestamp>
+</msg>
+<msg id="270" tool="mc">
+  <type>FINDLEAK_RECEIVED</type>
+  <arg>22240</arg>
+  <arg>1</arg>
+  <arg>1</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:37 2019</timestamp>
+</msg>
+<msg id="271" tool="mc">
+  <type>TOO_MANY_LEAKS</type>
+  <arg>100000</arg>
+  <severity>WARNING</severity>
+  <timestamp>Tue Dec 31 12:19:37 2019</timestamp>
+</msg>
+<msg id="272" tool="mc">
+  <type>FINDLEAK_COMPLETE</type>
+  <arg>22240</arg>
+  <arg>1</arg>
+  <arg>1</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:37 2019</timestamp>
+</msg>
+<msg id="273" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2766601,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:38 2019</timestamp>
+</msg>
+<msg id="274" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2054568,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:39 2019</timestamp>
+</msg>
+<msg id="275" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2122120,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:40 2019</timestamp>
+</msg>
+<msg id="276" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2319929,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:41 2019</timestamp>
+</msg>
+<msg id="277" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2087376,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:42 2019</timestamp>
+</msg>
+<msg id="278" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2087220,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:43 2019</timestamp>
+</msg>
+<msg id="279" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2066219,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:44 2019</timestamp>
+</msg>
+<msg id="280" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2300784,0,0,0,0,419,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:45 2019</timestamp>
+</msg>
+<msg id="281" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2090473,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:46 2019</timestamp>
+</msg>
+<msg id="282" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2065571,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:47 2019</timestamp>
+</msg>
+<msg id="283" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>1960202,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:48 2019</timestamp>
+</msg>
+<msg id="284" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2298604,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:49 2019</timestamp>
+</msg>
+<msg id="285" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2071370,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:50 2019</timestamp>
+</msg>
+<msg id="286" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2092206,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:51 2019</timestamp>
+</msg>
+<msg id="287" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2107405,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:52 2019</timestamp>
+</msg>
+<msg id="288" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2349442,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:53 2019</timestamp>
+</msg>
+<msg id="289" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2086775,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:54 2019</timestamp>
+</msg>
+<msg id="290" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2092305,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:55 2019</timestamp>
+</msg>
+<msg id="291" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2042395,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:56 2019</timestamp>
+</msg>
+<msg id="292" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2355930,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:57 2019</timestamp>
+</msg>
+<msg id="293" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>1998573,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:58 2019</timestamp>
+</msg>
+<msg id="294" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>1931801,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:19:59 2019</timestamp>
+</msg>
+<msg id="295" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2019858,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:20:00 2019</timestamp>
+</msg>
+<msg id="296" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2303394,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:20:01 2019</timestamp>
+</msg>
+<msg id="297" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>1978246,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:20:02 2019</timestamp>
+</msg>
+<msg id="298" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2013780,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:20:03 2019</timestamp>
+</msg>
+<msg id="299" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2101758,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:20:04 2019</timestamp>
+</msg>
+<msg id="300" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2036806,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:20:05 2019</timestamp>
+</msg>
+<msg id="301" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2346601,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:20:06 2019</timestamp>
+</msg>
+<msg id="302" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2078637,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:20:07 2019</timestamp>
+</msg>
+<msg id="303" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2057527,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:20:08 2019</timestamp>
+</msg>
+<msg id="304" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2127887,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:20:09 2019</timestamp>
+</msg>
+<msg id="305" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2274803,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:20:10 2019</timestamp>
+</msg>
+<msg id="306" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2016417,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:20:11 2019</timestamp>
+</msg>
+<msg id="307" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2037937,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:20:12 2019</timestamp>
+</msg>
+<msg id="308" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2080533,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:20:13 2019</timestamp>
+</msg>
+<msg id="309" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2262482,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:20:14 2019</timestamp>
+</msg>
+<msg id="310" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>1940570,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:20:15 2019</timestamp>
+</msg>
+<msg id="311" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2071321,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:20:16 2019</timestamp>
+</msg>
+<msg id="312" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2111988,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:20:17 2019</timestamp>
+</msg>
+<msg id="313" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2436907,0,0,0,0,0,0,368555,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:20:18 2019</timestamp>
+</msg>
+<msg id="314" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2085503,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:20:19 2019</timestamp>
+</msg>
+<msg id="315" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2058961,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:20:20 2019</timestamp>
+</msg>
+<msg id="316" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>1731686,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:20:21 2019</timestamp>
+</msg>
+<msg id="317" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>12388,19132,22300,2196,16496,20860,7788,18004,19316,23936,10356,21452,22220,7916,23984</arg>
+  <arg>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1</arg>
+  <arg>2138779,0,0,0,0,0,0,0,0,0,0,0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Dec 31 12:20:22 2019</timestamp>
+</msg>
+<msg id="318" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>1</arg>
+</msg>
+<msg id="319" tool="runtool">
+  <type>marker-file</type>
+  <arg>C:\Users\Admin\source\repos\machine_learning_c\machine_learning_c\My Inspector Results - machine_learning_c\r008mi1\r008mi1.inspxe</arg>
+</msg>
+<msg id="320" tool="runtool">
+  <type>collector-canceled</type>
+</msg>
+<msg id="321" tool="runtool">
+  <type>log-end</type>
+  <arg>2019/12/31 12:20:27</arg>
+</msg>
+
+</log>
+

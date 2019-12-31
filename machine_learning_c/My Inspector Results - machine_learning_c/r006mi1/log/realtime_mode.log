@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feedback>
+ <message severity="info">Analysis started...</message>
+ <nop/>
+ <message severity="info">Result file: C:\Users\Admin\source\repos\machine_learning_c\machine_learning_c\My Inspector Results - machine_learning_c\r006mi1\r006mi1.inspxe </message>
+ <nop/>
+ <message severity="info">Analysis started for c:\users\admin\source\repos\machine_learning_c\debug\machine_learning_c.exe (pid = 6808) </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\users\admin\source\repos\machine_learning_c\debug\machine_learning_c.exe, address range [0x1e0000-0x1f1fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\program files\avg\antivirus\aswhookx.dll, address range [0x67c40000-0x67c50fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\kernel32.dll, address range [0x75c80000-0x75d5ffff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\kernelbase.dll, address range [0x762d0000-0x764cbfff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\ntdll.dll, address range [0x77370000-0x77509fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\program files (x86)\intelswtools\inspector 2019\bin32\dnclrprofinfo.dll, address range [0x7a590000-0x7a5b4fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\users\admin\source\repos\machine_learning_c\machine_learning_c\sdl2.dll, address range [0x3540000-0x3663fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\advapi32.dll, address range [0x768a0000-0x76918fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\msvcrt.dll, address range [0x76590000-0x7664efff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\sechost.dll, address range [0x75de0000-0x75e55fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\rpcrt4.dll, address range [0x77220000-0x772dafff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\sspicli.dll, address range [0x74b40000-0x74b5ffff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\cryptbase.dll, address range [0x74b30000-0x74b39fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\bcryptprimitives.dll, address range [0x767c0000-0x7681efff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\gdi32.dll, address range [0x77330000-0x77350fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\win32u.dll, address range [0x77310000-0x77326fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\gdi32full.dll, address range [0x760e0000-0x76239fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\msvcp_win.dll, address range [0x74c80000-0x74cfbfff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\ucrtbase.dll, address range [0x74b60000-0x74c7efff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\user32.dll, address range [0x75670000-0x75806fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\imm32.dll, address range [0x76870000-0x76894fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\ole32.dll, address range [0x74f80000-0x75076fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\combase.dll, address range [0x74d00000-0x74f75fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\oleaut32.dll, address range [0x764e0000-0x76571fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\setupapi.dll, address range [0x75810000-0x75c58fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\cfgmgr32.dll, address range [0x75f90000-0x75fcafff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\bcrypt.dll, address range [0x75c60000-0x75c78fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\shell32.dll, address range [0x750e0000-0x75659fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\shcore.dll, address range [0x76240000-0x762c3fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\windows.storage.dll, address range [0x769f0000-0x76fb4fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\profapi.dll, address range [0x75e60000-0x75e76fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\powrprof.dll, address range [0x770c0000-0x77102fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\umpdc.dll, address range [0x76580000-0x7658cfff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\shlwapi.dll, address range [0x76fc0000-0x77003fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\kernel.appcore.dll, address range [0x77300000-0x7730efff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\cryptsp.dll, address range [0x772e0000-0x772f2fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\vcruntime140d.dll, address range [0x1330000-0x1349fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\ucrtbased.dll, address range [0x1370000-0x14e0fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\version.dll, address range [0x74380000-0x74387fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\winmm.dll, address range [0x71870000-0x71893fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\winmmbase.dll, address range [0x70c80000-0x70ca2fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\uxtheme.dll, address range [0x71c90000-0x71d09fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Application exit code: -1073740771 </message>
+ <nop/>
+ <message severity="info">Result file: C:\Users\Admin\source\repos\machine_learning_c\machine_learning_c\My Inspector Results - machine_learning_c\r006mi1\r006mi1.inspxe </message>
+ <nop/>
+ <message severity="info">Analysis completed</message>
+ <nop/>
+</feedback>

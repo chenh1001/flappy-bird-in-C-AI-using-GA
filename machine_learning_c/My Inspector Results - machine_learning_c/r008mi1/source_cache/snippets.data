@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+  <file name="c:\users\admin\source\repos\machine_learning_c\machine_learning_c\mainflappybird.c" md5="4db370cbe4b5d5c0964c3747c9c81973">
+    <snippet line="38">
+      <line line="35">	inputs[4] = bird-&gt;velocity / 10;</line>
+      <line line="36"/>
+      <line line="37">	Matrix outputs = NNfeedingForward(inputs, inputSize, bird-&gt;brain);</line>
+      <line line="38">	if (outputs.data[0][0]&gt;outputs.data[0][1])</line>
+      <line line="39">	{</line>
+    </snippet>
+    <snippet line="57">
+      <line line="54"/>
+      <line line="55">    // Create a SDL window</line>
+      <line line="56">    SDL_Window *window = SDL_CreateWindow("Hello, SDL2", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, width, height, SDL_WINDOW_OPENGL);</line>
+      <line line="57"/>
+      <line line="58">    // Create a renderer (accelerated and in sync with the display refresh rate)</line>
+    </snippet>
+    <snippet line="60">
+      <line line="57"/>
+      <line line="58">    // Create a renderer (accelerated and in sync with the display refresh rate)</line>
+      <line line="59">    SDL_Renderer *renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);</line>
+      <line line="60"/>
+      <line line="61">    SDL_Surface * image = SDL_LoadBMP("E:/blueBall.bmp");</line>
+    </snippet>
+    <snippet line="65">
+      <line line="62">    Uint32 colorkey = SDL_MapRGB(image-&gt;format, 255, 255, 255);</line>
+      <line line="63">    SDL_SetColorKey(image, SDL_TRUE, colorkey);</line>
+      <line line="64">    SDL_Texture * texture = SDL_CreateTextureFromSurface(renderer, image);</line>
+      <line line="65"/>
+      <line line="66">    SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);</line>
+    </snippet>
+    <snippet line="125">
+      <line line="122">				if (birds[i]-&gt;isAlive)</line>
+      <line line="123">				{</line>
+      <line line="124">					think(birds[i], pipes);</line>
+      <line line="125">					birdUpdate(birds[i]);</line>
+      <line line="126">					checkForHits(birds[i], pipes);</line>
+    </snippet>
+    <snippet line="144">
+      <line line="141">				while (isempty(pipes) == false)</line>
+      <line line="142">					pipes = pop(pipes);</line>
+      <line line="143">				birds = nextGen(birds);</line>
+      <line line="144">			</line>
+      <line line="145">				createPipe(pipes);	</line>
+    </snippet>
+    <snippet line="182">
+      <line line="179">        }</line>
+      <line line="180"/>
+      <line line="181">        SDL_RenderPresent(renderer);</line>
+      <line line="182">        free(rects);</line>
+      <line line="183">        free(birdRects);</line>
+    </snippet>
+  </file>
+  <file name="c:\users\admin\source\repos\machine_learning_c\machine_learning_c\matrix.c" md5="b62f9a8bc7f572746c7a81ee0827c531">
+    <snippet line="5">
+      <line line="2">Matrix newMatrix(int rows, int cols)</line>
+      <line line="3">{</line>
+      <line line="4">    double **data = malloc(rows * sizeof(double));</line>
+      <line line="5">    for (int i = 0; i&lt;rows; i++)</line>
+      <line line="6">    {</line>
+    </snippet>
+    <snippet line="8">
+      <line line="5">    for (int i = 0; i&lt;rows; i++)</line>
+      <line line="6">    {</line>
+      <line line="7">        data[i] = malloc(cols * sizeof(double));</line>
+      <line line="8">    }</line>
+      <line line="9">    for (int i = 0; i&lt;rows; i++)</line>
+    </snippet>
+    <snippet line="72">
+      <line line="69">Matrix copyMatrix(Matrix a)</line>
+      <line line="70">{</line>
+      <line line="71">	Matrix retM = newMatrix(a.rows, a.cols);</line>
+      <line line="72">	for (int i = 0; i &lt; retM.rows; i++)</line>
+      <line line="73">	{</line>
+    </snippet>
+    <snippet line="172">
+      <line line="169">	if (a.cols != b.rows)</line>
+      <line line="170">		puts("cant multiply matrixes");</line>
+      <line line="171">	Matrix temp = newMatrix(a.rows, b.cols);</line>
+      <line line="172">	for (int i = 0; i &lt; temp.rows; i++)</line>
+      <line line="173">	{</line>
+    </snippet>
+  </file>
+</snippets>

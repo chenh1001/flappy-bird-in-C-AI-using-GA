@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <SDL.h>
-#include "Stack.h"
+#include "Queue.h"
 #include "Matrix.h"
 #include "GeneticAlgorithm.h"
 

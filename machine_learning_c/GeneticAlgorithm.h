@@ -4,5 +4,5 @@
 #include "NeuralNetwork.h"
 
 int numOfBirds;
-void nextGen(Bird** birds);
+Bird** nextGen(Bird** birds);
 #endif
