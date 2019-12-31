@@ -9,12 +9,12 @@ void calcFitness(Bird** birds)//cals the fitness value of all birds
 	double sum = 0;
 	for (int i = 0; i < numOfBirds; i++)
 	{
-		sum += birds[i]->score + birds[i]->score / 100 * 1000; // add score for each 100 score passed
+		sum += birds[i]->score; //+ birds[i]->score / 100 * 1000; // add score for each 100 score passed
 	}
 
 	for (int i = 0; i < numOfBirds; i++)
 	{
-		birds[i]->fittnes = (birds[i]->score + birds[i]->score / 100 * 1000) / sum;
+		birds[i]->fittnes = birds[i]->score / sum;//(birds[i]->score + birds[i]->score / 100 * 1000) / sum;
 	}
 }
 

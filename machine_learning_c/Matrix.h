@@ -40,7 +40,7 @@ void matrixAddMatrix(Matrix dest, Matrix m);
 Matrix substuct(Matrix a, Matrix b);
 void matrixRandomize(Matrix m);
 void matrixMultiplyNum(double n, Matrix m);
-void matrixMultiplySimle(Matrix dest, Matrix m);
+void matrixMultiplySimple(Matrix dest, Matrix m);
 Matrix matrixMultiply(Matrix a, Matrix b);
 void matrixPrint(Matrix m);
 
