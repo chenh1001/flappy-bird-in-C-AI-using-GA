@@ -80,6 +80,11 @@ int main(int argc, char **argv)
 	srand(time(0)); //reset random
 
 	double speed = 1;
+
+	printf("Press X to make training faster\n");
+	printf("Press Z to make training slower\n");
+	printf("Press C to make training speed = 1\n");
+
 	while (running)
 	{
 		for (double n = 0; n < speed; n++) { //speed loop

@@ -2,14 +2,19 @@
   mainFlappyBird.c
 mainFlappyBird.c(11): warning C4033: 'closestPipe' must return a value
 mainFlappyBird.c(80): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
-mainFlappyBird.c(119): warning C4013: 'checkForHits' undefined; assuming extern returning int
-mainFlappyBird.c(149): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-mainFlappyBird.c(150): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+mainFlappyBird.c(124): warning C4013: 'checkForHits' undefined; assuming extern returning int
+mainFlappyBird.c(154): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+mainFlappyBird.c(155): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
 mainFlappyBird.c(66): warning C4133: 'initializing': incompatible types - from 'Bird **' to 'Bird **'
 mainFlappyBird.c(77): warning C4133: 'initializing': incompatible types - from 'PipesQueue *' to 'PipesQueue *'
-mainFlappyBird.c(166): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-mainFlappyBird.c(199): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-mainFlappyBird.c(200): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+mainFlappyBird.c(171): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+mainFlappyBird.c(204): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+mainFlappyBird.c(205): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Matrix.c
+Matrix.c(54): warning C4013: 'exp' undefined; assuming extern returning int
+  GeneticAlgorithm.c
+GeneticAlgorithm.c(42): warning C4133: 'initializing': incompatible types - from 'Bird **' to 'Bird **'
+  Generating Code...
 c:\users\admin\source\repos\machine_learning_c\machine_learning_c\mainflappybird.c(24): warning C4715: 'closestPipe': not all control paths return a value
   machine_learning_c.vcxproj -> C:\Users\Admin\source\repos\machine_learning_c\Debug\machine_learning_c.exe
   machine_learning_c.vcxproj -> C:\Users\Admin\source\repos\machine_learning_c\Debug\machine_learning_c.pdb (Partial PDB)
