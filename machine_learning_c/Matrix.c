@@ -1,6 +1,6 @@
 #include "Matrix.h"
 
-Matrix newMatrix(int rows, int cols)
+Matrix newMatrix(int rows, int cols)//returns a new empty matrix by given size
 {
 	double **data = malloc(rows * sizeof(double));
 	for (int i = 0; i<rows; i++)
@@ -18,12 +18,12 @@ Matrix newMatrix(int rows, int cols)
 	return temp;
 }
 
-double randBetweenZeroAndOne()
+double randBetweenZeroAndOne()//returnes a random bum between 0-1
 {
 	return ((double)rand() / (RAND_MAX));
 }
 
-void matrixAddtoMatrix(Matrix dest, Matrix m)
+void matrixAddtoMatrix(Matrix dest, Matrix m)//add two given matixes
 {
 	for (int i = 0; i<dest.rows; i++)
 	{
@@ -33,7 +33,7 @@ void matrixAddtoMatrix(Matrix dest, Matrix m)
 		}
 	}
 }
-void matrixMutate(double Mrate, Matrix m)
+void matrixMutate(double Mrate, Matrix m)//mutate a matrix by a given value
 {
 	for (int i = 0; i < m.rows; i++)
 	{
@@ -45,7 +45,7 @@ void matrixMutate(double Mrate, Matrix m)
 	}
 }
 
-void matrixSigmoid(Matrix m)
+void matrixSigmoid(Matrix m)//sigmoid on all values
 {
 	for (int i = 0; i < m.rows; i++)
 	{
@@ -56,7 +56,7 @@ void matrixSigmoid(Matrix m)
 	}
 }
 
-void matrixDSigmoid(Matrix m)
+void matrixDSigmoid(Matrix m)//d sigmoid on all values
 {
 	for (int i = 0; i < m.rows; i++)
 	{
@@ -67,7 +67,7 @@ void matrixDSigmoid(Matrix m)
 	}
 }
 
-Matrix copyMatrix(Matrix a)
+Matrix copyMatrix(Matrix a)//copy matrix
 {
 	Matrix retM = newMatrix(a.rows, a.cols);
 	for (int i = 0; i < retM.rows; i++)
@@ -80,7 +80,7 @@ Matrix copyMatrix(Matrix a)
 	return retM;
 }
 
-Matrix dSigmoid(Matrix a)
+Matrix dSigmoid(Matrix a)//dSigmoid that returnes a matrix
 {
 	Matrix retM = copyMatrix(a);
 	for (int i = 0; i < retM.rows; i++)
@@ -93,7 +93,7 @@ Matrix dSigmoid(Matrix a)
 	return retM;
 }
 
-Matrix transpose(Matrix m)
+Matrix transpose(Matrix m)//transposes a matrix (x,y)->(y,x)
 {
 	Matrix temp = newMatrix(m.cols, m.rows);
 	for (int i = 0; i < m.rows; i++)
@@ -106,7 +106,7 @@ Matrix transpose(Matrix m)
 	return temp;
 }
 
-void matrixAddMatrix(Matrix dest, Matrix m)
+void matrixAddMatrix(Matrix dest, Matrix m)//add two matrixes
 {
 	for (int i = 0; i < dest.rows; i++)
 	{
@@ -117,7 +117,7 @@ void matrixAddMatrix(Matrix dest, Matrix m)
 	}
 }
 
-Matrix substuct(Matrix a, Matrix b)
+Matrix substuct(Matrix a, Matrix b)//subtruct two matrixes
 {
 	Matrix temp = newMatrix(a.rows, a.cols);
 	for (int i = 0; i < a.rows; i++)
@@ -130,7 +130,7 @@ Matrix substuct(Matrix a, Matrix b)
 	return temp;
 }
 
-void matrixRandomize(Matrix m)
+void matrixRandomize(Matrix m)//randomize a matrix values
 {
 	for (int i = 0; i < m.rows; i++)
 	{
@@ -143,7 +143,7 @@ void matrixRandomize(Matrix m)
 }
 
 
-void matrixMultiplyNum(double n, Matrix m)
+void matrixMultiplyNum(double n, Matrix m)//multiply a matrix by a num
 {
 	for (int i = 0; i < m.rows; i++)
 	{
@@ -154,9 +154,8 @@ void matrixMultiplyNum(double n, Matrix m)
 	}
 }
 
-void matrixMultiplySimle(Matrix dest, Matrix m)
+void matrixMultiplySimple(Matrix dest, Matrix m)//matrix simple multiplication
 {
-
 	for (int i = 0; i < m.rows; i++)
 	{
 		for (int j = 0; j < m.cols; j++)
@@ -165,7 +164,7 @@ void matrixMultiplySimle(Matrix dest, Matrix m)
 		}
 	}
 }
-Matrix matrixMultiply(Matrix a, Matrix b)
+Matrix matrixMultiply(Matrix a, Matrix b)//matrix multiply
 {
 	if (a.cols != b.rows)
 		puts("cant multiply matrixes");
@@ -185,7 +184,7 @@ Matrix matrixMultiply(Matrix a, Matrix b)
 	return temp;
 }
 
-void matrixPrint(Matrix m)
+void matrixPrint(Matrix m)//print matrix
 {
 	for (int i = 0; i < m.rows; i++)
 	{

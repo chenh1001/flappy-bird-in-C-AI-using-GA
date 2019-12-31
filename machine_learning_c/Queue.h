@@ -3,18 +3,18 @@
 #include "pipe.h"
 
 
-typedef struct PipesStacks {
+typedef struct PipesQueues {
 	int top;
-	Pipe stack[10];
-} PipesStack;
+	Pipe queue[10];
+} PipesQueue;
 
-int isempty(PipesStack *stack);
-int isfull(PipesStack *stack);
-Pipe peek(PipesStack *stack);
-PipesStack* pop(PipesStack *stack);
-void push(Pipe data, PipesStack *stack);
-PipesStack* updatePipes(PipesStack *pipes);
-void createPipe(PipesStack *pipes);
+int isempty(PipesQueue *stack);
+int isfull(PipesQueue *stack);
+Pipe peek(PipesQueue *stack);
+PipesQueue* pop(PipesQueue *stack);
+void push(Pipe data, PipesQueue *stack);
+PipesQueue* updatePipes(PipesQueue *pipes);
+void createPipe(PipesQueue *pipes);
 
 #endif
 

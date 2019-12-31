@@ -9,13 +9,12 @@ static const double GRAVITY = 0.2;
 int startingX = 50;
 
 
-void birdJump(Bird* bird)
+void birdJump(Bird* bird)//make the bird jump
 {
-	//if (bird->velocity >= 0)
-		bird->velocity -= JUMP_POWER;
+	bird->velocity -= JUMP_POWER;
 }
 
-void birdUpdate(Bird* bird) 
+void birdUpdate(Bird* bird) //update bird vals
 {
 	bird->score++;
 	bird->velocity += GRAVITY;
@@ -27,7 +26,7 @@ void birdUpdate(Bird* bird)
 	}
 }
 
-void resetBirdNoBrain(Bird* bird)
+void resetBirdNoBrain(Bird* bird)//reset the bird's vals but not brain
 {
 	bird->velocity = 0;
 	bird->fittnes = 0;
@@ -37,7 +36,7 @@ void resetBirdNoBrain(Bird* bird)
 	bird->isAlive = true;
 }
 
-void resetBird(Bird* bird)
+void resetBird(Bird* bird)//reset all of birds vals
 {
 	bird->velocity = 0;
 	bird->fittnes = 0;

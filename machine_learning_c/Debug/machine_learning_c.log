@@ -1,5 +1,4 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (SDLproject.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  pipe.c
   mainFlappyBird.c
 mainFlappyBird.c(11): warning C4033: 'closestPipe' must return a value
 mainFlappyBird.c(80): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
@@ -7,20 +6,10 @@ mainFlappyBird.c(119): warning C4013: 'checkForHits' undefined; assuming extern 
 mainFlappyBird.c(149): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
 mainFlappyBird.c(150): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
 mainFlappyBird.c(66): warning C4133: 'initializing': incompatible types - from 'Bird **' to 'Bird **'
-mainFlappyBird.c(77): warning C4133: 'initializing': incompatible types - from 'PipesStack *' to 'PipesStack *'
+mainFlappyBird.c(77): warning C4133: 'initializing': incompatible types - from 'PipesQueue *' to 'PipesQueue *'
 mainFlappyBird.c(166): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
 mainFlappyBird.c(199): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
 mainFlappyBird.c(200): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-  bird.c
-  Queue.c
-Queue.c(37): warning C4133: 'initializing': incompatible types - from 'PipesStack *' to 'PipesStack *'
-Queue.c(77): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-Queue.c(79): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-  GeneticAlgorithm.c
-GeneticAlgorithm.c(42): warning C4133: 'initializing': incompatible types - from 'Bird **' to 'Bird **'
-  Generating Code...
-c:\users\admin\source\repos\machine_learning_c\machine_learning_c\queue.c(30): warning C4715: 'peek': not all control paths return a value
-c:\users\admin\source\repos\machine_learning_c\machine_learning_c\queue.c(54): warning C4715: 'pop': not all control paths return a value
 c:\users\admin\source\repos\machine_learning_c\machine_learning_c\mainflappybird.c(24): warning C4715: 'closestPipe': not all control paths return a value
   machine_learning_c.vcxproj -> C:\Users\Admin\source\repos\machine_learning_c\Debug\machine_learning_c.exe
   machine_learning_c.vcxproj -> C:\Users\Admin\source\repos\machine_learning_c\Debug\machine_learning_c.pdb (Partial PDB)

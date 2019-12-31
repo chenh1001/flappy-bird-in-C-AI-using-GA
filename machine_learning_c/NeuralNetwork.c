@@ -1,6 +1,6 @@
 #include "NeuralNetwork.h"
 
-NeuralNetwork newNeuralNetwork(int inputsLength, int hiddenLength, int outputsLength)
+NeuralNetwork newNeuralNetwork(int inputsLength, int hiddenLength, int outputsLength) //create a NN from vars
 {
 	NeuralNetwork nn;
 	nn.inputsLength = inputsLength;
@@ -19,7 +19,7 @@ NeuralNetwork newNeuralNetwork(int inputsLength, int hiddenLength, int outputsLe
 	return nn;
 }
 
-NeuralNetwork copyNeuralNetwork(NeuralNetwork nn)
+NeuralNetwork copyNeuralNetwork(NeuralNetwork nn)//copy a given NN vals
 {
 	NeuralNetwork temp;
 	temp.inputsLength = nn.inputsLength;
@@ -34,7 +34,7 @@ NeuralNetwork copyNeuralNetwork(NeuralNetwork nn)
 	return temp;
 }
 
-void freeMatrix(Matrix m)
+void freeMatrix(Matrix m)//free the given matrix memory
 {
 	for (int i = 0; i<m.rows; i++)
 	{
@@ -44,7 +44,7 @@ void freeMatrix(Matrix m)
 	m.data = NULL;
 }
 
-Matrix NNfeedingForward(double* inputsArr,int inputSize, NeuralNetwork nn)
+Matrix NNfeedingForward(double* inputsArr,int inputSize, NeuralNetwork nn)//get output from NN by input
 {
 	Matrix inputs = newMatrix(inputSize, 1);
 	double temp = 0;
@@ -73,7 +73,7 @@ Matrix NNfeedingForward(double* inputsArr,int inputSize, NeuralNetwork nn)
 	return transposed;
 }
 
-void NNMutate(double mutateRate, NeuralNetwork nn)
+void NNMutate(double mutateRate, NeuralNetwork nn)//mutete a given nn by the mutate Rate
 {
 	matrixMutate(mutateRate,nn.weigthsIH);
 	matrixMutate(mutateRate, nn.weigthsHO);

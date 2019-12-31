@@ -5,67 +5,67 @@ const int MAXSIZE = 10;
 int width;
 int height;
 
-int isempty(PipesStack *stack) {
+int isempty(PipesQueue *queue) {//is Queue Empty
 
-	if (stack->top == 0)
+	if (queue->top == 0)
 		return 1;
 	else
 		return 0;
 }
 
-int isfull(PipesStack *stack) {
+int isfull(PipesQueue *queue) {//is Queue full
 
-	if (stack->top == MAXSIZE -1)
+	if (queue->top == MAXSIZE -1)
 		return 1;
 	else
 		return 0;
 }
 
-Pipe peek(PipesStack *stack)
+Pipe peek(PipesQueue *queue)//returns the first pipe without removal
 {
-	if (!isempty(stack))
+	if (!isempty(queue))
 	{		
-		return stack->stack[0];
+		return queue->queue[0];
 	}
 }
-PipesStack* pop(PipesStack *stack) {
+PipesQueue* pop(PipesQueue *queue) //returns the first pipe with removal
+{
 	Pipe data;
-
-	if (!isempty(stack)) {
- 		data = stack->stack[0];
-		stack->top -= 1;
-  		PipesStack *pipes = (struct PipesStack*)malloc(sizeof(PipesStack));
+	if (!isempty(queue)) {
+ 		data = queue->queue[0];
+		queue->top -= 1;
+		PipesQueue *pipes = (struct PipesQueue*)malloc(sizeof(PipesQueue));//create new Queue on memory without the first pipe
 		int newTop = 0;
-		for (int i = 1; i <= stack->top; i++)
+		for (int i = 1; i <= queue->top; i++)
 		{
-			pipes->stack[i - 1] = stack->stack[i];
+			pipes->queue[i - 1] = queue->queue[i];
 			newTop++;
 		}
 		pipes->top = newTop;
-		free(stack);
-		stack = pipes;
+		free(queue);
+		queue = pipes;
 		pipes = NULL;
 		//return data;
-		return stack;
+		return queue;
 	}
 	else {
-		puts("Could not retrieve data, Stack is empty.\n");
+		puts("Could not retrieve data, queue is empty.\n");
 	}
 }
 
-void push(Pipe data, PipesStack *stack) {
-
-	if (!isfull(stack)) {
-		stack->stack[stack->top] = data;
-		stack->top = stack->top + 1;
+void push(Pipe data, PipesQueue *queue) //pushes a new pipe to the queue
+{
+	if (!isfull(queue)) {
+		queue->queue[queue->top] = data;
+		queue->top = queue->top + 1;
 	}
 	else {
-		puts("Could not insert data, Stack is full.\n");
+		puts("Could not insert data, queue is full.\n");
 	}
 }
 
 
-void createPipe(PipesStack *pipes)
+void createPipe(PipesQueue *pipes)//creates a new pipe and adds it to the queue
 {
 	Pipe pipe;
 	pipe.space = 150;
@@ -83,11 +83,11 @@ void createPipe(PipesStack *pipes)
 
 
 
-PipesStack* updatePipes(PipesStack *pipes)
+PipesQueue* updatePipes(PipesQueue *pipes)//updates the pipes value
 {
 	for (int i = 0; i<pipes->top; i++)
 	{
-		pipes->stack[i].x-=5;
+		pipes->queue[i].x-=5;
 	}
 
 	if (pipes->top > 0)
@@ -99,7 +99,7 @@ PipesStack* updatePipes(PipesStack *pipes)
 		}
 		for (int i = 0; i<pipes->top; i++)
 		{
-			if (pipes->stack[i].x == 200)
+			if (pipes->queue[i].x == 200)
 			{
 				createPipe(pipes);
 			}
@@ -110,11 +110,11 @@ PipesStack* updatePipes(PipesStack *pipes)
 	return pipes;
 }
 
-void checkForHits(Bird* bird, PipesStack *pipes)
+void checkForHits(Bird* bird, PipesQueue *pipes)//checks if a bird is hited by a pipe
 {
 	for (int i = 0; i<pipes->top; i++)
 	{
-		if (hits(bird, pipes->stack[i]))
+		if (hits(bird, pipes->queue[i]))
 			bird->isAlive = false;
 	}
 }

@@ -4,12 +4,12 @@
 int gens = 0;
 int numOfBirds = 50;
 
-void calcFitness(Bird** birds)
+void calcFitness(Bird** birds)//cals the fitness value of all birds
 {
 	double sum = 0;
 	for (int i = 0; i < numOfBirds; i++)
 	{
-		sum += birds[i]->score + birds[i]->score / 100 * 1000;
+		sum += birds[i]->score + birds[i]->score / 100 * 1000; // add score for each 100 score passed
 	}
 
 	for (int i = 0; i < numOfBirds; i++)
@@ -18,7 +18,7 @@ void calcFitness(Bird** birds)
 	}
 }
 
-Bird* pickOne(Bird** birds)
+Bird* pickOne(Bird** birds)//pick a bird to continue his gens, more chances if fittnes is high
 {
 	while (true)
 	{
@@ -34,7 +34,7 @@ Bird* pickOne(Bird** birds)
 	}
 }
 
-Bird** nextGen(Bird** birds)
+Bird** nextGen(Bird** birds)//returns the new gen birds by fittness
 {
 	calcFitness(birds);
 	gens++;
@@ -59,26 +59,11 @@ Bird** nextGen(Bird** birds)
 	//free stuff
 	for (int i = 0; i < numOfBirds; i++)
 	{
-		for (int i = 0; i<birds[i]->brain.weigthsHO.rows; i++)
-		{
-			free(birds[i]->brain.weigthsHO.data[i]);
-		}
-		free(birds[i]->brain.weigthsHO.data);
-		for (int i = 0; i<birds[i]->brain.biasH.rows; i++)
-		{
-			free(birds[i]->brain.biasH.data[i]);
-		}
-		free(birds[i]->brain.biasH.data);
-		for (int i = 0; i<birds[i]->brain.biasO.rows; i++)
-		{
-			free(newBirds[i]->brain.biasO.data[i]);
-		}
-		free(birds[i]->brain.biasO.data);
-		for (int i = 0; i<birds[i]->brain.weigthsIH.rows; i++)
-		{
-			free(birds[i]->brain.weigthsIH.data[i]);
-		}
-		free(birds[i]->brain.weigthsIH.data);
+		freeMatrix(birds[i]->brain.weigthsHO);
+		freeMatrix(birds[i]->brain.biasH);
+		freeMatrix(birds[i]->brain.biasO);
+		freeMatrix(birds[i]->brain.weigthsIH);
+
  		free(birds[i]);
 	}
 	free(birds);
